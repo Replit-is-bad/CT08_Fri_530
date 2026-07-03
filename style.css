@@ -1,25 +1,25 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #770265;
   margin: 0;
 }
 
 header {
-  background-color: #4f46e5;
+  background-color: #770265;
   color: white;
   text-align: center;
   padding: 40px;
 }
 
 section {
-  background-color: white;
+  background-color: #923584;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
 }
 
 h2 {
-  color: #4f46e5;
+  color: #c99ac1;
 }
 
 .games {
@@ -29,7 +29,7 @@ h2 {
 }
 
 .games a {
-  background-color: #4f46e5;
+  background-color: #c99ac1;
   color: white;
   text-decoration: none;
   padding: 10px 15px;
@@ -37,7 +37,7 @@ h2 {
 }
 
 .games a:hover {
-  background-color: #3730a3;
+  background-color: #e24fc9;
 }
 
 .projects {
@@ -52,7 +52,7 @@ h2 {
   padding: 20px;
   border-radius: 10px;
   text-decoration: none;
-  color: black;
+  color: #c99ac1;
   box-shadow: 0 2px 5px lightgray;
 }
 
