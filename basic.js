@@ -37,4 +37,6 @@ function setup() {
         score --;
 
     }
+
+    let grocerys
 }
