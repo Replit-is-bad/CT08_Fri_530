@@ -17,4 +17,10 @@ function setup() {
         total += i;
     }
     console.log("Sum :", total);
+
+    let score = 100;
+
+    if (score > 90) {
+        
+    }
 }
