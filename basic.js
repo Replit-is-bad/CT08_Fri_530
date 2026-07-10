@@ -38,5 +38,5 @@ function setup() {
 
     }
 
-    let grocerys
+    let groceries = ["apple"]
 }
