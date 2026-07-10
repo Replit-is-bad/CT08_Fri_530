@@ -24,6 +24,6 @@ function setup() {
         console.log("Great");
     }
     else if (score > 70) {
-        console.log
+        console.log("Good");
     }
 }
