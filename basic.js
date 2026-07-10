@@ -6,7 +6,7 @@ function setup() {
 
     let base = 10;
     let height = 5;
-    let area = base
+    let area = base*height
     
 
 
