@@ -5,7 +5,7 @@ function setup() {
     FileList(0);
 
     let base = 10;
-    let height = 10;
+    let height = 5;
     
 
 
