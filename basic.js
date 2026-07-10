@@ -1,6 +1,6 @@
 function setup() {
     new Canvas (800, 400);
-    back
+    background(200)
     textSize(16);
     FileList(0);
 
