@@ -4,8 +4,8 @@ function setup() {
     textSize(16);
     FileList(0);
 
-    let base = 5;
-    let b = 10;
+    let base = 10;
+    let height = 10;
     
 
 
