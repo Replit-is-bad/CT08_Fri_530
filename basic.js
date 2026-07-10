@@ -43,5 +43,7 @@ function setup() {
     groceries.push("orange"); // To add at the end of the array
     groceries.push("butter");
     groceries.shift();
-    groceries.splice(1,1,"kaya"); // 
+    groceries.splice(1,1,"kaya"); // remove and add from array
+
+    console.log(groceries)
 }
