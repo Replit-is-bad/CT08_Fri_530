@@ -29,4 +29,6 @@ function setup() {
     else {
         console.log("This guy bro...");
     }
+
+    while (score >= 1)
 }
