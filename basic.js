@@ -18,7 +18,7 @@ function setup() {
     }
     console.log("Sum :", total);
 
-    let score = 100;
+    let score = 19;
 
     if (score > 90) {
         console.log("Great");
@@ -34,7 +34,7 @@ function setup() {
         if (score % 2 == 1) {
             console.log(score)
         }
-        score
+        score --;
 
     }
 }
