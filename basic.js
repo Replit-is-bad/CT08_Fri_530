@@ -45,5 +45,5 @@ function setup() {
     groceries.shift();
     groceries.splice(1,1,"kaya"); // remove and add from array
 
-    console.log(groceries)
+    console.log(groceries);
 }
