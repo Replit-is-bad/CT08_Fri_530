@@ -5,5 +5,5 @@ function setup() {
 
     let a = 5;
     let b = 10;
-    console.log("SUm of a and b:")
+    console.log("SUm of a and b:");
 }
