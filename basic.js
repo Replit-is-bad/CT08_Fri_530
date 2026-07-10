@@ -34,7 +34,7 @@ function setup() {
         if (score % 2 == 1) {
             console.log(score)
         }
-        
+        score
 
     }
 }
