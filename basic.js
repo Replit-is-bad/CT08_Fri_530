@@ -30,5 +30,8 @@ function setup() {
         console.log("This guy bro...");
     }
 
-    while (score >= 1)
+    while (score >= 1) {
+        if (score % 2 == 1);
+        
+    }
 }
