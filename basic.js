@@ -12,7 +12,7 @@ function setup() {
     console.log("area: ",area);
     
     let total = 0;
-    for( i = 2; i <= 20; i += 2) {
+    for(let i = 2; i <= 20; i += 2) {
         console.log(i);
         total += i;
     }
