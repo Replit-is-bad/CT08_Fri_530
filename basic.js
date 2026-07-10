@@ -4,7 +4,7 @@ function setup() {
     textSize(16);
     FileList(0);
 
-    let a = 5;
+    let base = 5;
     let b = 10;
     
 
