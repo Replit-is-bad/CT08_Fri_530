@@ -27,6 +27,6 @@ function setup() {
         console.log("Good");
     }
     else {
-        console.log("T")
+        console.log("This guy bro...");
     }
 }
