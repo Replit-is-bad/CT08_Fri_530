@@ -43,5 +43,5 @@ function setup() {
     groceries.push("orange");
     groceries.push("butter");
     groceries.shift();
-    groceries.splice("kaya")
+    groceries.splice(1,)
 }
