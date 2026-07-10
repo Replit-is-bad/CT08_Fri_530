@@ -32,8 +32,9 @@ function setup() {
 
     while (score >= 1) {
         if (score % 2 == 1) {
-            console.log()
+            console.log(score)
         }
+        
 
     }
 }
