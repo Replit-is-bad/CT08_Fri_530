@@ -11,6 +11,5 @@ function setup() {
     
     console.log("area: ",area);
     
-
-
+    
 }
