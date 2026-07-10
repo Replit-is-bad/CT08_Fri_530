@@ -8,7 +8,7 @@ function setup() {
     let height = 5;
     let area = 0.5*base*height;
 
-    console.log("area: " + area);
+    console.log("area: ",area);
     
 
 
