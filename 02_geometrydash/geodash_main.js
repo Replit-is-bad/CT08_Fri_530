@@ -27,7 +27,7 @@ function setup() {
     new Canvas(700,600); //Width,height
     background(200)
 
-    AudioWorkletNode.gravi
+    world.gravity.y = 
 }
 
 function draw() {
