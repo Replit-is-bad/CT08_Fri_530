@@ -19,7 +19,7 @@ let bg
 
 
 function preload() {
-
+    box = loaddddd
 }
 
 function setup() {
