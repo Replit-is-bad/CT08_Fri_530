@@ -8,6 +8,8 @@ const TILE_SIZE = 50;
 let tileMap1;
 let ground;
 let spikes;
+let orb;
+let
 // world building groups
 
 
