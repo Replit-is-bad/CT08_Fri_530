@@ -6,7 +6,8 @@ let bg
 // game variables
 const TILE_SIZE = 50;
 let tileMap1;
-let 
+
+let spikes;
 // world building groups
 
 
