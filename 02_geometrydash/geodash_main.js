@@ -5,7 +5,7 @@ let bg
 
 // game variables
 const TILE_SIZE = 50;
-
+let tilemaps1
 // world building groups
 
 
