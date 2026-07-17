@@ -25,7 +25,8 @@ let finishLine;
 function preload() {
     box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
-}
+
+    tine}
 
 function setup() {
     new Canvas(700,600); //Width,height
