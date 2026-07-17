@@ -1,5 +1,5 @@
 //player box
-
+let player;
 
 // game variables
 
