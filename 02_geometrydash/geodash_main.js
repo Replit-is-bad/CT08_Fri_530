@@ -20,11 +20,11 @@ let bg
 
 function preload() {
     box = loadImage("assets/cube2.png");
-    bg = loadImage("assets/geobg.png")
+    bg = loadImage("assets/geobg.png");
 }
 
 function setup() {
-  
+    new Can
 }
 
 function draw() {
