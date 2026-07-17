@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-    im
+    Image(bg,0 ,0,)
 }
 
 
