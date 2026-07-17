@@ -33,7 +33,7 @@ function setup() {
     player.bounciness = 10;
     player.collider = "none";
 
-    startCoordinate = [50,height - TILE_SIZE]
+    startCoordinate = [50,height - TILE_SIZE / 2];
 }
 
 function draw() {
