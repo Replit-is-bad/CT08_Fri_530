@@ -31,8 +31,9 @@ function setup() {
     player.img = box;
     player.friction = 0;
     player.bounciness = 10;
-    player.collider
+    player.collider = "none";
 
+    
 }
 
 function draw() {
