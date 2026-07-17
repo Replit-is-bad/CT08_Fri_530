@@ -29,7 +29,8 @@ function setup() {
 
     player = new Sprite(50,50,TILE_SIZE,TILE_SIZE); // x,y,width,height
     player.img = box;
-    player.friction
+    player.friction = 0;
+    player.bou
 
 }
 
