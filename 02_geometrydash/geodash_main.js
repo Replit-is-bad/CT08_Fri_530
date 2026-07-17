@@ -4,7 +4,7 @@ let box;
 let bg
 
 // game variables
-const 
+const TILE_SIZE
 
 // world building groups
 
