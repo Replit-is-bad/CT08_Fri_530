@@ -19,7 +19,7 @@ let bg
 
 
 function preload() {
-    box = loadImage("")
+    box = loadImage("assets/")
 }
 
 function setup() {
