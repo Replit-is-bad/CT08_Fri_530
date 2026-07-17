@@ -1,6 +1,7 @@
 //player box
 let player;
-letbox=
+let box;
+let bg
 
 // game variables
 
