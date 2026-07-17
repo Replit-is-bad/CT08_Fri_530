@@ -25,10 +25,10 @@ function preload() {
 
 function setup() {
     new Canvas(700,600); //Width,height
-    background(200)
+    background(200);
 
     world.gravity.y = 32;
-    
+
 }
 
 function draw() {
