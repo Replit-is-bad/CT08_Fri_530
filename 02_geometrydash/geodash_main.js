@@ -19,7 +19,7 @@ let bg
 
 
 function preload() {
-    box = loadImage("assets/")
+    box = loadImage("assets/cube.png")
 }
 
 function setup() {
