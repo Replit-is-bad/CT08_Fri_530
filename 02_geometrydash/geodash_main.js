@@ -27,7 +27,7 @@ function setup() {
     new Canvas(700,600); //Width,height
     world.gravity.y = 32;
 
-    player = new Sprite(); // 
+    player = new Sprite(); // x,y,width,height
 
 }
 
