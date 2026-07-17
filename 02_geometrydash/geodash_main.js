@@ -20,7 +20,7 @@ let bg
 
 function preload() {
     box = loadImage("assets/cube2.png");
-    
+    bg = loadImage("ass")
 }
 
 function setup() {
