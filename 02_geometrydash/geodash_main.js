@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-    Image(bg,0 ,0, 800, 600); // I
+    Image(bg,0 ,0, 800, 600); // IMAGE<X,Y
 }
 
 
