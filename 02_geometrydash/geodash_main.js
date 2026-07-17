@@ -4,7 +4,7 @@ let box;
 let bg
 
 // game variables
-
+const 
 
 // world building groups
 
