@@ -39,7 +39,7 @@ function setup() {
     player.img = box;
     player.friction = 0;
     player.bounciness = 0;
-    player.collider = "none";
+    player.collider = "dynamic";
 
     // Spawn point [x, y]
     startCoordinate = [TILE_SIZE, height - TILE_SIZE];
