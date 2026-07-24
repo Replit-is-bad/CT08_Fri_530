@@ -56,8 +56,7 @@ function setup() {
     // spike
     spike = new Group();
     spike.tile = "s";
-    spike.w = TILE_SIZE;
-   
+    spike.
     spike.color = 'black';
     spike.stroke = 'white';
     spike.collider = 'static';
