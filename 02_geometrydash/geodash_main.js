@@ -53,7 +53,7 @@ function setup() {
     ground.collider ='static';
 
     // spike
-    
+    spike =
 
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
