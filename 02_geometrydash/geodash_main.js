@@ -88,8 +88,8 @@ function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
 
-
-    CSSKeyframeRule.x +=
+    //camera
+    camera.x += 5
     // player movement
     player.vel.x = 5
 
