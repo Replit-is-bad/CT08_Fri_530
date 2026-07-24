@@ -62,7 +62,7 @@ function setup() {
     spike.collider = 'static';
 
     // Orb
-    orb = new group
+    
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
