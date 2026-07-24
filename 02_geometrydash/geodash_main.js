@@ -67,7 +67,7 @@ function setup() {
     orb.tile = 'o';
     orb.d =24;
     orb.color ="#fffb00";
-    
+    orb.stroke
 
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
