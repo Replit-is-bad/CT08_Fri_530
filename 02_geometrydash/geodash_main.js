@@ -93,5 +93,6 @@ function draw() {
 
     if (kb.presses("space") || mouse.presses("left")) {
         player.vel.y = -11
+        
     }
 }
