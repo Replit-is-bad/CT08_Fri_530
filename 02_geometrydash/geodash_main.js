@@ -73,7 +73,7 @@ function setup() {
     finish = new Group();
     finish.tile = 'f';
     finish.d =24;
-    finish.color ="#fffb00";
+    finish.color ="#005eff";
     finish.stroke = 'white';
     finish.collider ='static';
     // map
