@@ -74,7 +74,7 @@ function setup() {
     finishLine.tile = "f";
     finishLine.w = TILE_SIZE;
     finishLine.h = height * 2;
-    finishLine.color = "#f59402";
+    finishLine.color = "#021af5";
     finishLine.stroke = "black";
     finishLine.collider = "static";
     finishLine.visible = true; // Show or hide
