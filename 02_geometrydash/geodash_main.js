@@ -71,11 +71,11 @@ function setup() {
     orb.collider ='static';
     // finish
     finish = new Group();
-    finish.tile = 'o';
+    finish.tile = 'f';
     finish.d =24;
-    orb.color ="#fffb00";
-    orb.stroke = 'white';
-    orb.collider ='static';
+    finish.color ="#fffb00";
+    finish.stroke = 'white';
+    finish.collider ='static';
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
