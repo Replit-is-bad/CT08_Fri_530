@@ -88,11 +88,13 @@ function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
 
+
+    CSSKeyframeRule.x +=
     // player movement
     player.vel.x = 5
 
     if (kb.presses("space") || mouse.presses("left")) {
         player.vel.y = -11
-        
+
     }
 }
