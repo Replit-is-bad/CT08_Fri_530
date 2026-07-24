@@ -70,9 +70,9 @@ function setup() {
     orb.stroke = 'white';
     orb.collider ='static';
     // finish
-    orb = new Group();
-    orb.tile = 'o';
-    orb.d =24;
+    finish = new Group();
+    finish.tile = 'o';
+    finish.d =24;
     orb.color ="#fffb00";
     orb.stroke = 'white';
     orb.collider ='static';
