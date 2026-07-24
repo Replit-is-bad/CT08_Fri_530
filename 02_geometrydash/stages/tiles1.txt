@@ -9,5 +9,5 @@
                                       
                 g                    
              g  g                  
-   o g  s s   g    g
-ggggggggggggggggggggg
+   o g  s s   g g
+gggggggggggggggggggg
