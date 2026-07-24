@@ -58,7 +58,7 @@ function setup() {
     spike.w = TILE_SIZE;
     spike.h = TILE_SIZE;
     spike.color = 'black';
-    
+    spike.stroke
 
     // Orb
 
