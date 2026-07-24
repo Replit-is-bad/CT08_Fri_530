@@ -55,7 +55,8 @@ function setup() {
     // spike
     spike = new Group();
     spike.tile = "s";
-    spike.w = Tile
+    spike.w = TILE_SIZE;
+    spike.h = TILE_SIZE;
 
     // Orb
 
