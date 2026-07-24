@@ -71,7 +71,7 @@ function setup() {
     // finish
     finish = new Group();
     finish.tile = 'f';
-    finish.h =height * 2;
+    finish.h =height;
     finish.w = TILE_SIZE;
     finish.color ="#005eff";
     finish.stroke = 'white';
