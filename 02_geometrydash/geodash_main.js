@@ -59,7 +59,7 @@ function setup() {
     spike.h = TILE_SIZE;
     spike.color = 'black';
     spike.stroke = 'white';
-    spike.collider6 =
+    spike.collider = 'static';
 
     // Orb
 
