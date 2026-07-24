@@ -25,7 +25,7 @@ let finishLine;
 function preload() {
     box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
-    spike
+    spike = loadImage("")
 
     tileMap1 = loadStrings("stages/tiles1.txt");
 }
