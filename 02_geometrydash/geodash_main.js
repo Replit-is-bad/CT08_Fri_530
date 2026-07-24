@@ -77,7 +77,7 @@ function setup() {
     finish.visible = true;
 
     // map
-    new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
+    new Tiles(tileMap2, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
 
 function draw() {
