@@ -26,7 +26,7 @@ function preload() {
     box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
 
-    tine}
+    tileMap1 = loadStrings("stages/tiles1.txt");
 
 function setup() {
     new Canvas(700,600); //Width,height
