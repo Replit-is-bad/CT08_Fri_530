@@ -45,7 +45,7 @@ function setup() {
 
     // Ground sprite group
     ground = new Group();
-    ground.title = "g";
+    ground.tile = "g";
     ground.w = TILE_SIZE;
     ground.h = TILE_SIZE;
     ground.color = 'black';
