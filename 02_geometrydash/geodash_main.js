@@ -49,7 +49,7 @@ function setup() {
     ground.h = TILE_SIZE;
     ground.color = 'black';
     ground.stroke = 'white';
-    ground.collider
+    ground.collider ='static';
 
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
