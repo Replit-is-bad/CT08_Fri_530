@@ -71,8 +71,8 @@ function setup() {
     // finish
     finish = new Group();
     finish.tile = 'f';
-    finish.h =height;
-    finish.w = til;
+    finish.h =height * 2;
+    finish.w = TILE_SIZE;
     finish.color ="#005eff";
     finish.stroke = 'white';
     finish.collider ='static';
