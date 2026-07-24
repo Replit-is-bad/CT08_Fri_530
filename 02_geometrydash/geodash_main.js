@@ -52,6 +52,9 @@ function setup() {
     ground.stroke = 'white';
     ground.collider ='static';
 
+    // spike
+    
+
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
