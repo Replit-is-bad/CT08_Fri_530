@@ -53,10 +53,11 @@ function setup() {
     ground.collider ='static';
 
     // spike
-    spike =
+    spike = new Group();
+    
 
     // Orb
-    
+
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
