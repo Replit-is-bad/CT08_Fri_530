@@ -89,4 +89,8 @@ function draw() {
 
     // player movement
     player.vel.x = 5
+
+    if (kb.presses("space") || mouse.presses("left")) {
+        
+    }
 }
