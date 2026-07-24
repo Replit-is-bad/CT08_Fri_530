@@ -65,7 +65,8 @@ function setup() {
     // Orb
     orb = new Group();
     orb.tile = 'o';
-    orb.d =24
+    orb.d =24;
+    orb.color =
 
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
