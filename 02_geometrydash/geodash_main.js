@@ -65,7 +65,7 @@ function setup() {
     orbs = new Group();
     orbs.tile = "o";
     orbs.d = 24;    // Diameter
-    orbs.color = "#f5d402";
+    orbs.color = "#e9f502";
     orbs.stroke = "white";
     orbs.collider = "static"; // Cannot move
 
