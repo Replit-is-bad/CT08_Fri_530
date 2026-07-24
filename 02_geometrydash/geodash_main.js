@@ -29,6 +29,7 @@ function preload() {
     spike = loadImage("assets/spike.png");
 
     tileMap1 = loadStrings("stages/tiles1.txt");
+    tileMap2 = loadStrings("stages/tiles2.txt");
 }
 
 function setup() {
