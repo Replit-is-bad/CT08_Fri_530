@@ -55,6 +55,8 @@ function setup() {
     // spike
     spike =
 
+    // Orb
+    
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
