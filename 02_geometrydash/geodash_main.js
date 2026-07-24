@@ -72,12 +72,12 @@ function setup() {
     finish = new Group();
     finish.tile = 'f';
     finish.h =height;
-    finish.w =TILE_SIZE * 2;
+    finish.w = til;
     finish.color ="#005eff";
     finish.stroke = 'white';
     finish.collider ='static';
     finish.visible = false;
-    
+
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
