@@ -95,10 +95,10 @@ function draw() {
         camera.x = width / 2;
     }
     // player movement
-    player.vel.x = 5
+    player.vel.x = 5;
 
     if (kb.presses("space") || mouse.presses("left")) {
-        player.vel.y = -11
+        player.vel.y = -11;
 
     }
 }
