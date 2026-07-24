@@ -23,7 +23,7 @@ let spike;
 
 
 function preload() {
-    box = loadImage("assets/cube.png");
+    box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
     spike = loadImage("assets/spike.png");
 
