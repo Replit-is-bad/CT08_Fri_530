@@ -56,7 +56,7 @@ function setup() {
     // spike
     spike = new Group();
     spike.tile = "s";
-    spike.
+    spike.image = spike;
     spike.color = 'black';
     spike.stroke = 'white';
     spike.collider = 'static';
@@ -76,6 +76,7 @@ function setup() {
     finish.color ="#005eff";
     finish.stroke = 'white';
     finish.collider ='static';
+    finish.vis
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
