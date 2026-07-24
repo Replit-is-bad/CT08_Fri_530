@@ -27,7 +27,7 @@ function preload() {
     bg = loadImage("assets/geobg.png");
 
     tileMap1 = loadStrings("stages/tiles1.txt");
-
+}
 function setup() {
     new Canvas(700,600); //Width,height
     world.gravity.y = 32;
@@ -41,20 +41,20 @@ function setup() {
     startCoordinate = [50,height - TILE_SIZE / 2];
     player.x = startCoordinate[0];
     player.y = startCoordinate[1];
-}
+
+    // Ground sprite group
+    ground = new Group();
+    ground.title = "g";
+    ground.w = TILE_SIZE;
+    ground.h = TILE_SIZE;
+    ground.color = 'black';
+    ground.stroke = 'white';
+
+    // map
+    new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
+}   
 
 function draw() {
     clear();
     image(bg,0 ,0, 800, 600); // IMAGE,X,Y,width,height
 }
-
-
-
-
-
-
-
-
-
-
-
