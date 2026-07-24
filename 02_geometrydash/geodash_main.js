@@ -28,6 +28,7 @@ function preload() {
 
     tileMap1 = loadStrings("stages/tiles1.txt");
 }
+
 function setup() {
     new Canvas(700,600); //Width,height
     world.gravity.y = 32;
