@@ -69,7 +69,7 @@ function setup() {
     orb.color ="#fffb00";
     orb.stroke = 'white';
     orb.collider ='static';
-
+    
     // map
     new Tiles(tileMap1, 0 ,0,TILE_SIZE,TILE_SIZE);
 }   
