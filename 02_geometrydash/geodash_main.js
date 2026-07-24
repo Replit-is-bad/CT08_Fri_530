@@ -54,6 +54,7 @@ function setup() {
 
     // spike
     spike = new Group();
+    spike.tile = "s"
     
 
     // Orb
