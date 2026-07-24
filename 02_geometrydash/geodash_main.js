@@ -58,5 +58,5 @@ function setup() {
 
 function draw() {
     clear();
-    image(bg,0 ,0, 800, 600); // IMAGE,X,Y,width,height
+    image(bg,0 ,0, 800, 500); // IMAGE,X,Y,width,height
 }
