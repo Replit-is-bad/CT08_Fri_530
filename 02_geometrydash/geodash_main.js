@@ -6,6 +6,7 @@ let bg
 // game variables
 const TILE_SIZE = 50;
 let tileMap1;
+let tileMap2;
 let ground;
 let spikes;
 let orb;
