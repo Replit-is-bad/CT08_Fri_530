@@ -57,8 +57,6 @@ function setup() {
     spike = new Group();
     spike.tile = "s";
     spike.image = spike;
-    spike.color = 'black';
-    spike.stroke = 'white';
     spike.collider = 'static';
 
     // Orb
