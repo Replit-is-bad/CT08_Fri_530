@@ -118,6 +118,15 @@ function draw() {
     }
     
     for (let tile of ground) {
+        if (player.collides(tile)) {
+
+            let LeftEdge = player.x - player.w / 2;
+            let leftEdgeHight = player.y - player.h / 2;
+
+            if (player.x <leftEdge && player.y > leftEdgeHight) {
+                resetGame();
+            }
+        }
     }
 
     if (player.collides(spikes)) {
