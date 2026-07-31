@@ -101,10 +101,11 @@ function draw() {
     if (kb.presses("space") || mouse.presses("left")) {
         player.vel.y = -1000;
         box.rotateTo(box.rotation + 359, 15);
-        jumpChance = 1;
+        jumpChance -= 1;
 
     }
 
+    if (box.collides(ground) && jumpChance <MAX_JUMP)
     // if (box.collides(sharp)) {
     //     resetGame();
     // }
