@@ -84,7 +84,11 @@ function setup() {
     // Create map using tile map and sprite groups
     new Tiles(tileMap1, 0, 0, TILE_SIZE, TILE_SIZE);    // (map, x, y, width, height)
 }
-
+function resetGame() {
+    player.x = startCoordinate[0];
+    player.y = startCoordinate[1];
+    jumpChance = MAX_JUMP;
+}
 function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
