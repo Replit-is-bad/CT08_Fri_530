@@ -117,8 +117,8 @@ function draw() {
         jumpChance = MAX_JUMP;
     }
     
+    if (player.collides())
 
-    
     if (player.collides(spikes)) {
         resetGame();
     }
