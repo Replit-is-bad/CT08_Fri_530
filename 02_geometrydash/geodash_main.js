@@ -6,7 +6,7 @@ let bg;     // Background image
 // game variables
 const TILE_SIZE = 50;
 const MAX_JUMP = 1;
-let jumpChance = MAX_JUMP;
+let jumpChance;
 // world building groups
 let tileMap1;
 let ground;     // Ground sprite group
@@ -35,7 +35,7 @@ function setup() {
     new Canvas(700, 600);   // (width, height)
     world.gravity.y = 32;
 
-    jumpChance = MAX_JUMP;
+    playerJump = 0;
     // Player sprite
     player = new Sprite(TILE_SIZE, TILE_SIZE, TILE_SIZE, TILE_SIZE);  // (x, y, width, height)
     player.img = box;
@@ -100,14 +100,14 @@ function draw() {
 
     if (kb.presses("space") || mouse.presses("left")) {
         player.vel.y = -11;
-        player.rotateTo(player.rotation + 359, 15);
+        box.rotateTo(box.rotation + 359, 15);
         jumpChance -= 1;
+
     }
 
-    if (player.collides(ground) && jumpChance < MAX_JUMP) {
-        jumpChance = MAX_JUMP;
+    if (box.collides(ground) && jumpChance <MAX_JUMP) {
+        jumpChance = MAX_JUMP
     }
-
     // if (box.collides(sharp)) {
     //     resetGame();
     // }
