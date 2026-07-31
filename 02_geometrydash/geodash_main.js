@@ -117,7 +117,7 @@ function draw() {
         jumpChance = MAX_JUMP;
     }
     
-    if (player.collides(ground) && player.y >= ) {
+    if (player.collides(ground) && player.y >= ground.y - TILE_SIZE/2) {
         
     }
 
