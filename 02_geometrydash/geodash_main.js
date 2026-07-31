@@ -102,5 +102,7 @@ function draw() {
 
     }
 
-    
+    if (box.collides(sharp)) {
+        reset
+    }
 }
