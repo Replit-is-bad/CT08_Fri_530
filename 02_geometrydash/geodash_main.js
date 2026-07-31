@@ -118,7 +118,7 @@ function draw() {
     }
     
     if (player.collides(ground) && player.y >= ground.y - TILE_SIZE/2) {
-        
+        resetGame();
     }
 
     if (player.collides(spikes)) {
