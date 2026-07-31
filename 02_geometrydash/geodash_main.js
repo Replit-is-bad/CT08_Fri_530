@@ -106,7 +106,7 @@ function draw() {
 
     if (player.collides(ground) && jumpChance < MAX_JUMP) {
         jumpChance = MAX_JUMP;
-        console.log("jumpChance: ", jumpChance);
+        console.log("jumpChance: ";
     }
     
     // if (box.collides(sharp)) {
