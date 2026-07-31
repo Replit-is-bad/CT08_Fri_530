@@ -118,7 +118,7 @@ function draw() {
     }
     
     if (player.collides(ground)) {
-        player.vel.y = 0;
+        
     }
 
     if (player.collides(spikes)) {
