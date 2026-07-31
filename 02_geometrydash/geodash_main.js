@@ -121,9 +121,9 @@ function draw() {
         if (player.collides(tile)) {
 
             let LeftEdge = player.x - player.w / 2;
-            let leftEdgeHight = player.y - player.h / 2;
+            let LeftEdgeHight = player.y - player.h / 2;
 
-            if (player.x <leftEdge && player.y > leftEdgeHight) {
+            if (player.x <LeftEdge && player.y > LeftEdgeHight) {
                 resetGame();
             }
         }
