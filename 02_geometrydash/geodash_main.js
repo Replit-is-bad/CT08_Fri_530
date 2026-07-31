@@ -119,7 +119,8 @@ function draw() {
     
     for (let orb of orbs) {
         if (player.collides(orb)) {
-            orb
+            orb.collider = "none";
+            
         }
     }
     for (let tile of ground) {
