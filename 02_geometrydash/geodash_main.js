@@ -86,9 +86,13 @@ function setup() {
 }
 function resetGame() {
     box.rotation = 0;
+
     player.x = startCoordinate[0];
     player.y = startCoordinate[1];
+
     jumpChance = MAX_JUMP;
+
+    camera.x = width / 2;
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
