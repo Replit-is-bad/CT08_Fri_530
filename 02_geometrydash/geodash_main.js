@@ -120,7 +120,7 @@ function draw() {
     for (let orb of orbs) {
         if (player.collides(orb)) {
             orb.collider = "none";
-            
+            jumpChance = MAX_JUMP;
         }
     }
     for (let tile of ground) {
