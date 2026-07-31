@@ -39,7 +39,7 @@ function setup() {
     player = new Sprite(TILE_SIZE, TILE_SIZE, TILE_SIZE, TILE_SIZE);  // (x, y, width, height)
     player.img = box;
     player.friction = 0;
-    player.bounciness = 10000000;
+    player.bounciness = 0;
     player.collider = "dynamic";
 
     // Spawn point [x, y]
