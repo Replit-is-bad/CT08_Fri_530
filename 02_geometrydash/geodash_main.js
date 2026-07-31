@@ -6,7 +6,7 @@ let bg;     // Background image
 // game variables
 const TILE_SIZE = 50;
 const MAX_JUMP = 1;
-let jumpChance
+let jumpChance;
 // world building groups
 let tileMap1;
 let ground;     // Ground sprite group
