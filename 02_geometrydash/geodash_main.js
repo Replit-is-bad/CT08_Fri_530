@@ -5,7 +5,7 @@ let bg;     // Background image
 
 // game variables
 const TILE_SIZE = 50;
-const MAX
+const MAX_JUMP =
 
 // world building groups
 let tileMap1;
