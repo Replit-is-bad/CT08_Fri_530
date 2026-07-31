@@ -108,7 +108,7 @@ function draw() {
         jumpChance = MAX_JUMP;
     }
     
-    // if (box.collides(sharp)) {
-    //     resetGame();
-    // }
+    if (box.collides(sharp)) {
+        resetGame();
+    }
 }
