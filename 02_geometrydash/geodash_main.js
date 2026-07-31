@@ -120,7 +120,7 @@ function draw() {
     for (let tile of ground) {
         if (player.collides(tile)) {
 
-            let LeftEdge = player.x - player.w / 2;
+            let LeftEdge = tile.x - tile.w / 2;
             let LeftEdgeHight = player.y - player.h / 2;
             console.log("LeftEdge: " + LeftEdge + " LeftEdgeHight: " + LeftEdgeHight);
             console.log("tile.x: " + tile.x + " tile.y: " + tile.y);
