@@ -121,7 +121,7 @@ function draw() {
         if (player.collides(tile)) {
 
             let LeftEdge = tile.x - tile.w / 2;
-            let LeftEdgeHight = player.y - player.h / 2;
+            let LeftEdgeHight = tile.y - tile.h / 2;
             console.log("LeftEdge: " + LeftEdge + " LeftEdgeHight: " + LeftEdgeHight);
             console.log("tile.x: " + tile.x + " tile.y: " + tile.y);
             if (player.x <LeftEdge && player.y > LeftEdgeHight) {
