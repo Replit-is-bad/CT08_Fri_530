@@ -117,8 +117,11 @@ function draw() {
         jumpChance = MAX_JUMP;
     }
     
-    
-
+    for (let orb of orbs) {
+        if (player.collides(orb)) {
+            orb.remove();
+        }
+    }
     for (let tile of ground) {
         if (player.collides(tile)) {
 
