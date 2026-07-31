@@ -117,6 +117,8 @@ function draw() {
         jumpChance = MAX_JUMP;
     }
     
+
+    
     for (let tile of ground) {
         if (player.collides(tile)) {
 
