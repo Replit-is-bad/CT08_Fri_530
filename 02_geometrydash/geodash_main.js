@@ -70,7 +70,8 @@ function setup() {
     orbs.color = "#e9f502";
     orbs.stroke = "white";
     orbs.collider = "dynamic"; // Cannot move
-    orb
+    orbs.vel.y = 0;   // No gravity
+    orbs.mass = 0;    // No gravity
 
     // Finish line sprite group
     finishLine = new Group();
