@@ -119,7 +119,7 @@ function draw() {
     
     
 
-    if (box.collides(sharp)) {
+    if (player.collides(spike)) {
         resetGame();
     }
 }
