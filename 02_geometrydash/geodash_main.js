@@ -85,7 +85,7 @@ function setup() {
     new Tiles(tileMap1, 0, 0, TILE_SIZE, TILE_SIZE);    // (map, x, y, width, height)
 }
 function resetGame() {
-    box.rotation
+    box.rotation = 0;
     player.x = startCoordinate[0];
     player.y = startCoordinate[1];
     jumpChance = MAX_JUMP;
