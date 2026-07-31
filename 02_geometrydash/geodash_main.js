@@ -117,7 +117,7 @@ function draw() {
         jumpChance = MAX_JUMP;
     }
     
-    if (player.collides(ground) && ground) {
+    if (player.collides(ground) && ground ) {
         
     }
 
