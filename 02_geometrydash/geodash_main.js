@@ -101,4 +101,6 @@ function draw() {
         player.vel.y = -11;
 
     }
+
+    
 }
