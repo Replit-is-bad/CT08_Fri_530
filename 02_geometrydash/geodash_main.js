@@ -100,7 +100,7 @@ function draw() {
 
     if (kb.presses("space") || mouse.presses("left")) {
         player.vel.y = -11;
-        box.rotateTo(box.)
+        box.rotateTo(box.rotation + 359, 15)
 
     }
 
