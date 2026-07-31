@@ -122,8 +122,9 @@ function draw() {
 
             let LeftEdge = player.x - player.w / 2;
             let LeftEdgeHight = player.y - player.h / 2;
-
+            console.log("LeftEdge: " + LeftEdge + " LeftEdgeHight: " + LeftEdgeHight);
             if (player.x <LeftEdge && player.y > LeftEdgeHight) {
+                
                 resetGame();
                 break;
             }
