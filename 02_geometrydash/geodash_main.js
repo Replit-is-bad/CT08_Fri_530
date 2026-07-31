@@ -102,8 +102,6 @@ function draw() {
         jumpChance -= 1;
         player.vel.y = -11;
         player.rotateTo(player.rotation + 359, 15);
-        
-        console.log("jumpChance: ", jumpChance);
     }
 
     if (player.collides(ground) && jumpChance < MAX_JUMP) {
