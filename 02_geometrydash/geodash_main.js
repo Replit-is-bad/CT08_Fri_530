@@ -69,9 +69,7 @@ function setup() {
     orbs.d = 24;    // Diameter
     orbs.color = "#e9f502";
     orbs.stroke = "white";
-    orbs.collider = "dynamic"; // Cannot move
-    orbs.vel.y = 0;   // No gravity
-    orbs.mass = 0;    // No gravity
+    orbs.collider = "static"; // Cannot move
 
     // Finish line sprite group
     finishLine = new Group();
