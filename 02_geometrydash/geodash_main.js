@@ -99,7 +99,7 @@ function draw() {
     player.vel.x = 5;
 
     if (kb.presses("space") || mouse.presses("left")) {
-        player.vel.y = -1000;
+        player.vel.y = -11;
         box.rotateTo(box.rotation + 359, 15);
         jumpChance -= 1;
 
