@@ -125,6 +125,7 @@ function draw() {
 
             if (player.x <LeftEdge && player.y > LeftEdgeHight) {
                 resetGame();
+                break;
             }
         }
     }
