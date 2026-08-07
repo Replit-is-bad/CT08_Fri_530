@@ -137,7 +137,9 @@ function loadLevel() {
     if (lastLevel < level) {
         level = 1;
     }
-    if (level === 1)
+    if (level === 1) {
+        new Tiles(tileMap1, 0,)
+    }
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
