@@ -153,7 +153,7 @@ function draw() {
         }
     }
 
-    if (!startGame && (mouse.pr))
+    if (!startGame && (mouse.presses() || kb.presses))
 
     if (player.collides(spikes)) {
         resetGame();
