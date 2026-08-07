@@ -19,7 +19,9 @@ let endTimer = 0;
 
 // image sprites
 let spike;
-let startGameImg
+let startGameImg;
+let endGameImg;
+let
 
 // menu
 
