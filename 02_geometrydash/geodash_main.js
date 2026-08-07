@@ -129,7 +129,7 @@ function triggerGameover() {
     endSprite.img = endGameImg;
 }
 function loadLevel() {
-    
+    gr
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
