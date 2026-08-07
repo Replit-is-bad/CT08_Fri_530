@@ -193,6 +193,7 @@ function draw() {
                     endSprite.remove();
                 }
                 startGame =false;
+                gameOver = false;
                 
             }
         }
