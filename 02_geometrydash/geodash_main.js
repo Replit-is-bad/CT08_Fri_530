@@ -9,6 +9,8 @@ const MAX_JUMP = 1;
 let jumpChance = MAX_JUMP;
 // world building groups
 let tileMap1;
+let tileMap2;
+let level
 let ground;     // Ground sprite group
 let spikes;     // Spike sprite group
 let orbs;        // Orb sprite group
