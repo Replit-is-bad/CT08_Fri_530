@@ -242,7 +242,9 @@ function draw() {
                 level += 1;
                 loadLevel();
             }
+        
         }
+        
     }
- drawBackground();
+ 
 }
