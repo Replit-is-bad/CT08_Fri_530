@@ -105,7 +105,7 @@ function setup() {
 
     new Tiles(tileMap1, 0, 0, 50, 50);
     
-    mapused
+    mapUsed = tileMap1;
 }
 function resetGame() {
     box.rotation = 0;
