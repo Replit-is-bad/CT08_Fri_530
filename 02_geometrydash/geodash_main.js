@@ -103,7 +103,8 @@ function setup() {
     startSprite.img = startGameImg;
     startSprite.collider = "none"
 
-    new Tiles(tileMap1, 0,0)
+    new Tiles(tileMap1, 0, 0, 50, 50);
+    
 }
 function resetGame() {
     box.rotation = 0;
