@@ -190,7 +190,7 @@ function draw() {
         if (gameOver) {
             if (frameCount - endTimer > 120) {
                 if(endSprite){
-                    endSprite.remove
+                    endSprite.remove();
                 }
             }
         }
