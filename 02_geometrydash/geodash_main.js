@@ -228,7 +228,7 @@ function draw() {
             }
         }
     }
- 
+    draw
 }
 
 function drawBackground() {
