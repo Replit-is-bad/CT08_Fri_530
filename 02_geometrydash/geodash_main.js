@@ -114,7 +114,8 @@ function triggerGameover() {
     gameOver = true;
 
     player.vel.y = 0;
-    
+    jumpChance = 0;
+    endTimer = frame
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
