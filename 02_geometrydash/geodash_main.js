@@ -194,7 +194,9 @@ function draw() {
                 }
                 startGame =false;
                 gameOver = false;
-                
+                resetGame();
+
+                level 
             }
         }
     }
