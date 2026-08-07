@@ -182,5 +182,9 @@ function draw() {
         if (player.collides(spikes)) {
             resetGame();
         }
+
+        if (player.collides(finishLine)) {
+            triggerGameover();
+        }
     }
 }
