@@ -243,4 +243,5 @@ function draw() {
             }
         }
     }
+    draw
 }
