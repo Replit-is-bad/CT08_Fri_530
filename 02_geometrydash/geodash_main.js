@@ -140,7 +140,7 @@ function loadLevel() {
     if (level === 1) {
         new Tiles(tileMap1, 0, 0, 50, 50);
     }else if (level === 2){
-        
+        new Tiles(Tile)
     }
 
 }
