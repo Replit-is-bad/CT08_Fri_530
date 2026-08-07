@@ -35,7 +35,7 @@ function preload() {
     bg = loadImage("assets/geobg.png");
     spike = loadImage("assets/spike.png");
 
-    endGameImg = loadImage('assets/clear.png')
+    endGameImg = loadImage('assets/clear.png');
     startGameImg = loadImage('assets/startgame.png');
 
     tileMap1 = loadStrings("stages/tiles3.txt");
