@@ -13,7 +13,7 @@ let ground;     // Ground sprite group
 let spikes;     // Spike sprite group
 let orbs;        // Orb sprite group
 let finishLine; // Finish line sprite group
-l
+let startGame = 
 
 // image sprites
 let spike;
