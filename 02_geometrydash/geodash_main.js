@@ -113,58 +113,58 @@ function resetGame() {
 function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
-
-    // camera
-    if (player.x >= width / 2) {
-        camera.x = player.x;
-    }else {
-        camera.x = width / 2;
-    }
-    // player movement
-    player.vel.x = 5;
-
-    if ((kb.presses("space") || mouse.presses("left")) && jumpChance > 0) {
-        jumpChance -= 1;
-        player.vel.y = -10;
-        player.rotateTo(player.rotation + 359, 15);
-    }
-
-    if (player.collides(ground) && jumpChance < MAX_JUMP) {
-        jumpChance = MAX_JUMP;
-    }
     
-    for (let orb of orbs) {
-        if (player.collides(orb)) {
-            orb.collider = "none";
+    // camera
+        if (player.x >= width / 2) {
+            camera.x = player.x;
+        }else {
+            camera.x = width / 2;
+        }
+        // player movement
+        player.vel.x = 5;
+
+        if ((kb.presses("space") || mouse.presses("left")) && jumpChance > 0) {
+            jumpChance -= 1;
+            player.vel.y = -10;
+            player.rotateTo(player.rotation + 359, 15);
+        }
+
+        if (player.collides(ground) && jumpChance < MAX_JUMP) {
             jumpChance = MAX_JUMP;
         }
         
-    }
-    for (let tile of ground) {
-        if (player.collides(tile)) {
+        for (let orb of orbs) {
+            if (player.collides(orb)) {
+                orb.collider = "none";
+                jumpChance = MAX_JUMP;
+            }
+            
+        }
+        for (let tile of ground) {
+            if (player.collides(tile)) {
 
-            let LeftEdge = tile.x - tile.w / 2;
-            let LeftEdgeHight = tile.y - tile.h / 2;
-            if (player.x <LeftEdge && player.y > LeftEdgeHight) {
-                
-                resetGame();
-                break;
+                let LeftEdge = tile.x - tile.w / 2;
+                let LeftEdgeHight = tile.y - tile.h / 2;
+                if (player.x <LeftEdge && player.y > LeftEdgeHight) {
+                    
+                    resetGame();
+                    break;
+                }
             }
         }
-    }
 
-    if (!startGame && (mouse.presses() || kb.presses("space"))) {
-        startGame = true;
-        startSprite.visible = false;
-    }  else if(!startGame) {
-            if(frameCount % 60 <30) {
-                startSprite.visible = true;
-            } else{
-                    startSprite.visible = false;
-            }
-    }
+        if (!startGame && (mouse.presses() || kb.presses("space"))) {
+            startGame = true;
+            startSprite.visible = false;
+        }  else if(!startGame) {
+                if(frameCount % 60 <30) {
+                    startSprite.visible = true;
+                } else{
+                        startSprite.visible = false;
+                }
+        }
 
-    if (player.collides(spikes)) {
-        resetGame();
-    }
+        if (player.collides(spikes)) {
+            resetGame();
+        }
 }
