@@ -42,7 +42,7 @@ function preload() {
     startGameImg = loadImage('assets/startgame.png');
 
     tileMap1 = loadStrings("stages/tiles3.txt");
-    tileMap2 = loadStrings("stage/")
+    tileMap2 = loadStrings("stage/tile2.txt")
 }
 
 function setup() {
