@@ -113,7 +113,7 @@ function resetGame() {
 function triggerGameover() {
     gameOver = true;
 
-    
+    player
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
