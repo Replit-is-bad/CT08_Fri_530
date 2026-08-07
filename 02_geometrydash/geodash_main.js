@@ -115,7 +115,11 @@ function triggerGameover() {
 
     player.vel.y = 0;
     jumpChance = 0;
-    endTimer = frame
+    endTimer = frameCount;
+
+    if (endSprite) {
+        
+    }
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
