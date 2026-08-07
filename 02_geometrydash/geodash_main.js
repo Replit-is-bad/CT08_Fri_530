@@ -132,6 +132,7 @@ function loadLevel() {
     ground.removeALL();
     sharp.removeALL();
     orbs.removeALL();
+    finishLine.remove
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
