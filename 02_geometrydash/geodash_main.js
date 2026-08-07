@@ -120,7 +120,8 @@ function triggerGameover() {
     if (endSprite) {
         endSprite.remove();
     }
-    endSprite = new Sprite(player.x, height / 2 , 26)
+    endSprite = new Sprite(player.x, height / 2 , 126, 24);
+    
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
