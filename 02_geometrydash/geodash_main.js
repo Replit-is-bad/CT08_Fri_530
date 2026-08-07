@@ -192,6 +192,8 @@ function draw() {
                 if(endSprite){
                     endSprite.remove();
                 }
+                startGame =false;
+                
             }
         }
     }
