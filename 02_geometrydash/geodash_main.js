@@ -113,7 +113,8 @@ function resetGame() {
 function triggerGameover() {
     gameOver = true;
 
-    player
+    player.vel.y = 0;
+    
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
