@@ -159,7 +159,7 @@ function draw() {
         startSprite.visible = false;
     }  else if(!startGame) {
             if(frameCount % 60 <30) {
-                startSprite.visible = true;
+                   startSprite.visible = true;
             } else{
                     startSprite.visible = false;
             }
