@@ -93,6 +93,8 @@ function setup() {
 
     // Create map using tile map and sprite groups
     new Tiles(tileMap1, 0, 0, TILE_SIZE, TILE_SIZE);    // (map, x, y, width, height)
+
+    star
 }
 function resetGame() {
     box.rotation = 0;
