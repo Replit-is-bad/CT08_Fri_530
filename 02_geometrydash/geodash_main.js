@@ -118,6 +118,7 @@ function triggerGameover() {
     endTimer = frameCount;
 
     if (endSprite) {
+        endSprite.remove();
         
     }
 }
