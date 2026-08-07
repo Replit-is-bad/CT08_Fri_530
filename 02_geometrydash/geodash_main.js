@@ -159,6 +159,8 @@ function draw() {
     }  else if(!startGame) {
             if(frameCount % 60 <30) {
                 startSprite.visible = true;
+            } else{
+                
             }
     }
 
