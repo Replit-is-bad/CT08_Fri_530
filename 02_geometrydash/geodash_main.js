@@ -187,6 +187,8 @@ function draw() {
             triggerGameover();
         }
 
-        if (gameOver) 
+        if (gameOver) {
+            if (frameCount - endTimer > 120)
+        }
     }
 }
