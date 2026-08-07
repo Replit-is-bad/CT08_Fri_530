@@ -157,7 +157,7 @@ function draw() {
         startGame = true;
         startSprite.visible = false;
     }  else if(!startGame) {
-        i
+            if(frameCount % 60 <30)
     }
 
     if (player.collides(spikes)) {
