@@ -243,5 +243,5 @@ function draw() {
             }
         }
     }
-    draw
+    drawBackground();
 }
