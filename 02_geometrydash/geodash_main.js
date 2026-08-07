@@ -137,7 +137,7 @@ function loadLevel() {
     if (lastLevel < level) {
         level = 1;
     }
-    
+    if (level === 1)
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
