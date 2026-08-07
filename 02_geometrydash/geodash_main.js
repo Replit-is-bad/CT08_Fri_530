@@ -113,7 +113,8 @@ function resetGame() {
 function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
-    
+
+    if (startGame){}
     // camera
         if (player.x >= width / 2) {
             camera.x = player.x;
