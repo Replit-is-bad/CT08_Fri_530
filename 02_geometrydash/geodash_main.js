@@ -155,7 +155,7 @@ function draw() {
 
     if (!startGame && (mouse.presses() || kb.presses("space"))) {
         startGame = true;
-        startSprite.visible
+        startSprite.visible = false
     }
 
     if (player.collides(spikes)) {
