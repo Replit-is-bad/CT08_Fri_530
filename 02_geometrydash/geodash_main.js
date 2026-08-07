@@ -130,7 +130,8 @@ function triggerGameover() {
 }
 function loadLevel() {
     ground.removeALL();
-    sharp.removeALL()
+    sharp.removeALL();
+    orbs.removeALL();
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
