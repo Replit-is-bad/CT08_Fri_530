@@ -106,7 +106,8 @@ function setup() {
     new Tiles(tileMap1, 0, 0, 50, 50);
     
     mapUsed = tileMap1;
-}
+} 
+
 function drawBackground() {
 
   let lastRow = mapUsed[mapUsed.length - 1]; //Get the final row of the current tile map.
