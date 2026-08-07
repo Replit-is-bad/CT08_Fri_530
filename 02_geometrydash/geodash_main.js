@@ -8,6 +8,7 @@ const TILE_SIZE = 50;
 const MAX_JUMP = 1;
 let jumpChance = MAX_JUMP;
 // world building groups
+let mapused;
 let tileMap1;
 let tileMap2;
 let level = 1;
