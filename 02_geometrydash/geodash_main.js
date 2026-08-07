@@ -134,7 +134,9 @@ function loadLevel() {
     orbs.removeALL();
     finishLine.removeALL();
 
-    if (lastLevel < level)
+    if (lastLevel < level) {
+        
+    }
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
