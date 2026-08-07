@@ -170,7 +170,7 @@ function loadLevel() {
 function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
-       drawBackground();
+       
     if (!startGame && (mouse.presses() || kb.presses("space"))) {
         startGame = true;
         startSprite.visible = false;
