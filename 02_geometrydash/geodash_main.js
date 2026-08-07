@@ -114,16 +114,16 @@ function draw() {
     clear();    // Clear the previous frame before drawing
     image(bg, 0, 0, 800, 600);  // (image, x, y, width, height)
     
-        if (!startGame && (mouse.presses() || kb.presses("space"))) {
-            startGame = true;
-            startSprite.visible = false;
-        }  else if(!startGame) {
-                if(frameCount % 60 <30) {
-                    startSprite.visible = true;
-                } else{
-                        startSprite.visible = false;
-                }
-        }
+    if (!startGame && (mouse.presses() || kb.presses("space"))) {
+        startGame = true;
+        startSprite.visible = false;
+    }  else if(!startGame) {
+            if(frameCount % 60 <30) {
+                startSprite.visible = true;
+            } else{
+                    startSprite.visible = false;
+            }
+    }
     if (startGame){
     // camera
         if (player.x >= width / 2) {
