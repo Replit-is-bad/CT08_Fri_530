@@ -196,7 +196,8 @@ function draw() {
                 gameOver = false;
                 resetGame();
 
-                level 
+                level += 1;
+                loadLevel();
             }
         }
     }
