@@ -21,7 +21,8 @@ let endTimer = 0;
 let spike;
 let startGameImg;
 let endGameImg;
-let start
+let startSprite;
+let endSprite;
 
 // menu
 
@@ -33,6 +34,8 @@ function preload() {
     box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
     spike = loadImage("assets/spike.png");
+
+    
 
     tileMap1 = loadStrings("stages/tiles3.txt");
 }
