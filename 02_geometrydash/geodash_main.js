@@ -98,7 +98,7 @@ function setup() {
     startSprite.img = startGameImg;
     startSprite.collider = "none"
 
-    
+
 }
 function resetGame() {
     box.rotation = 0;
@@ -152,6 +152,8 @@ function draw() {
             }
         }
     }
+
+    if (!startGame )
 
     if (player.collides(spikes)) {
         resetGame();
