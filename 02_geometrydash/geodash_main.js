@@ -188,7 +188,9 @@ function draw() {
         }
 
         if (gameOver) {
-            if (frameCount - endTimer > 120)
+            if (frameCount - endTimer > 120) {
+                if(endSprite)
+            }
         }
     }
 }
