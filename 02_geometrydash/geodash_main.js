@@ -138,7 +138,7 @@ function loadLevel() {
         level = 1;
     }
     if (level === 1) {
-        new Tiles(tileMap1, 0,)
+        new Tiles(tileMap1, 0, 0, 50, 50)
     }
 }
 function draw() {
