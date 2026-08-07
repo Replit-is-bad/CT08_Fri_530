@@ -111,7 +111,9 @@ function resetGame() {
     camera.x = width / 2;
 }
 function triggerGameover() {
-    gameOver = true
+    gameOver = true;
+
+    
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
