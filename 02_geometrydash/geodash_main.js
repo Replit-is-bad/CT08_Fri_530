@@ -21,7 +21,7 @@ let endTimer = 0;
 let spike;
 let startGameImg;
 let endGameImg;
-let
+let start
 
 // menu
 
