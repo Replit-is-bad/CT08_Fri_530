@@ -121,7 +121,8 @@ function triggerGameover() {
         endSprite.remove();
     }
     endSprite = new Sprite(player.x, height / 2 , 126, 24);
-    
+    endSprite.collider = "none";
+    e
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
