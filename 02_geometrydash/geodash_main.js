@@ -119,8 +119,8 @@ function triggerGameover() {
 
     if (endSprite) {
         endSprite.remove();
-        
     }
+    end
 }
 function draw() {
     clear();    // Clear the previous frame before drawing
