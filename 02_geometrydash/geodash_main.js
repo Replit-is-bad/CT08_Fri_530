@@ -248,7 +248,7 @@ function draw() {
             particle.vel.y = random(-2 ,0);
 
             //life
-            particle.life = 15;
+            particle.life = 30;
 
             // particle add to group
             particles.add(particle);
