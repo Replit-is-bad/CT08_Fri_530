@@ -143,9 +143,9 @@ function triggerGameover() {
     gameOver = true;
 
     if (!gameOver){
-        
+        passSound.play();
     }
-    passSound.play();
+    
 
     player.vel.y = 0;
     jumpChance = 0;
