@@ -142,6 +142,7 @@ function resetGame() {
 function triggerGameover() {
     gameOver = true;
 
+    
     player.vel.y = 0;
     jumpChance = 0;
     endTimer = frameCount;
@@ -154,7 +155,6 @@ function triggerGameover() {
     endSprite.img = endGameImg;
 
     backgroundTrack.stop();
-    passSound.play();
 }
 function loadLevel() {
     ground.removeALL();
