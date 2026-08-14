@@ -135,6 +135,7 @@ function resetGame() {
 
     
     backgroundTrack.stop();
+    if(lost)
     failSound.play();
 }
 function triggerGameover() {
