@@ -37,6 +37,7 @@ let backgroundTrack;
 
 
 let lost = false;
+
 function preload() {
     box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
