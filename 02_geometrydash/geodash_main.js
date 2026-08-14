@@ -235,7 +235,7 @@ function draw() {
         if(frameCount % 3 === 0 && player.collider(ground) && player.vel.y >= 0.5){
 
             // small particles below box
-            let particle = new Sprite(player.x , player.y )
+            let particle = new Sprite(player.x , player.y +)
         }
     }
     drawBackground();
