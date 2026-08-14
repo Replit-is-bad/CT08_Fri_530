@@ -251,7 +251,7 @@ function draw() {
             particle.life = 15;
 
             // particle add to group
-            particle.add(particle);
+            particles.add(particle);
 
             // upright cube
             box.rotation = 0;
