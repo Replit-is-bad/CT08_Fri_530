@@ -254,7 +254,7 @@ function draw() {
             particle.add(particle);
 
             // upright cube
-            box.rot
+            box.rotation = 0;
         }
     }
     drawBackground();
