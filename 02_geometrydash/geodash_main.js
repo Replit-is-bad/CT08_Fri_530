@@ -253,7 +253,8 @@ function draw() {
             // particle add to group
             particle.add(particle);
 
-            //
+            // upright cube
+            box.rot
         }
     }
     drawBackground();
