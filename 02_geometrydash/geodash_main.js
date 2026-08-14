@@ -33,7 +33,7 @@ let endSprite;
 
 
 // sound assets
-let Background
+let backgroundTrack
 
 function preload() {
     box = loadImage("assets/cube2.png");
