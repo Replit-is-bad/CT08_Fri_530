@@ -53,7 +53,7 @@ function preload() {
 
     backgroundTrack = createAudio("assets/stereo-madness.mp3");
     passSound = createAudio("asset/game-start.mp3");
-    failSound = create
+    failSound = createAudio("asset/")
 }
 
 function setup() {
