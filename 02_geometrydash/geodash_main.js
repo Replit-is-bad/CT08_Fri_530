@@ -46,7 +46,7 @@ function preload() {
     tileMap1 = loadStrings("stages/tiles3.txt");
     tileMap2 = loadStrings("stages/tiles2.txt");
 
-    backgroundTrack = createAudio("audio/")
+    backgroundTrack = createAudio("audio/02_geometrydash/assets/stereo-madness.mp3")
 }
 
 function setup() {
