@@ -245,7 +245,7 @@ function draw() {
             particle.vel.y = -5;
 
             // random movement
-            particle
+            particle.vel.y = random()
         }
     }
     drawBackground();
