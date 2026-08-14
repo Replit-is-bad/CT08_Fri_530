@@ -215,7 +215,7 @@ function draw() {
                 let LeftEdge = tile.x - tile.w / 2;
                 let LeftEdgeHight = tile.y - tile.h / 2;
                 if (player.x <LeftEdge && player.y > LeftEdgeHight) {
-                    
+                    lost = true;
                     resetGame();
                     break;
                 }
