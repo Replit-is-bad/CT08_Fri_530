@@ -239,7 +239,9 @@ function draw() {
 
             // no outline for particles
             particle.color = "white";
-            particle.strokeWeig
+            particle.strokeWeight = 0;
+
+            
         }
     }
     drawBackground();
