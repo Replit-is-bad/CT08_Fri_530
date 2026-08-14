@@ -34,6 +34,7 @@ let endSprite;
 
 // sound assets
 let backgroundTrack;
+let passSound
 
 
 let lost = false;
