@@ -232,7 +232,7 @@ function draw() {
             }
         }
     
-        if(player.y ==){
+        if(player.y == player.y){
 
             // small particles below box
             let particle = new Sprite(player.x , player.y + player.h / 2 , 8 ,8,"none");
