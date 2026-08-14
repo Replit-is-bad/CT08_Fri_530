@@ -241,7 +241,7 @@ function draw() {
             particle.color = "white";
             particle.strokeWeight = 0;
 
-            
+            // particle
         }
     }
     drawBackground();
