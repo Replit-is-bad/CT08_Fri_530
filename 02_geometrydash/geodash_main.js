@@ -245,7 +245,7 @@ function draw() {
             particle.vel.x = -5;
 
             // random movement
-            particle.vel.y = random();
+            particle.vel.y = random(-2 ,0);
 
             //
         }
