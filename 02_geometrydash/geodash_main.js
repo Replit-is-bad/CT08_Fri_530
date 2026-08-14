@@ -126,9 +126,8 @@ function resetGame() {
 
     camera.x = width / 2;
 
-    if (lost) {
-        backgroundTrack.stop();
-    }
+    
+    backgroundTrack.stop();
 }
 function triggerGameover() {
     gameOver = true;
