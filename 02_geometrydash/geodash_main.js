@@ -172,7 +172,7 @@ function draw() {
             }
     }
     if (startGame){
-        backgroundTrack.elt.psused
+        (backgroundTrack.elt.paused)
     // camera
         if (player.x >= width / 2) {
             camera.x = player.x;
