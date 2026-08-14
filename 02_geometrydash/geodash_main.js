@@ -143,6 +143,8 @@ function triggerGameover() {
     endSprite = new Sprite(player.x, height / 2 , 126, 24);
     endSprite.collider = "none";
     endSprite.img = endGameImg;
+
+    backgroundTrack.stop();
 }
 function loadLevel() {
     ground.removeALL();
