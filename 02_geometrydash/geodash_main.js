@@ -151,6 +151,7 @@ function triggerGameover() {
     endSprite.img = endGameImg;
 
     backgroundTrack.stop();
+    passSound.play();
 }
 function loadLevel() {
     ground.removeALL();
