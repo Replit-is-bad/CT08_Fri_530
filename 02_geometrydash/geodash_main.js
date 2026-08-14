@@ -52,7 +52,7 @@ function preload() {
     tileMap2 = loadStrings("stages/tiles3.txt");
 
     backgroundTrack = createAudio("assets/stereo-madness.mp3");
-    passSound = createAudio()
+    passSound = createAudio("asset/game-start")
 }
 
 function setup() {
