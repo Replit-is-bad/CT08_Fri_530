@@ -247,7 +247,8 @@ function draw() {
             // random movement
             particle.vel.y = random(-2 ,0);
 
-            //
+            //life
+            particle.life = 15
         }
     }
     drawBackground();
