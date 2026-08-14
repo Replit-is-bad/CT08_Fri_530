@@ -222,7 +222,6 @@ function draw() {
             }
         }
 
-
         if (player.collides(spikes)) {
             resetGame();
         }
