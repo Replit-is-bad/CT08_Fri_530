@@ -238,7 +238,7 @@ function draw() {
             let particle = new Sprite(player.x , player.y + player.h / 2 , 10 ,10,"none");
 
             // no outline for particles
-            
+            particle
         }
     }
     drawBackground();
