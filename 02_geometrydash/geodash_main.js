@@ -172,6 +172,7 @@ function draw() {
             }
     }
     if (startGame){
+        
     // camera
         if (player.x >= width / 2) {
             camera.x = player.x;
