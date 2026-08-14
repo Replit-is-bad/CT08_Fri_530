@@ -142,6 +142,9 @@ function resetGame() {
 function triggerGameover() {
     gameOver = true;
 
+    if (!gameOver){
+        
+    }
     passSound.play();
 
     player.vel.y = 0;
