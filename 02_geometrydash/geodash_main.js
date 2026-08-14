@@ -242,7 +242,7 @@ function draw() {
             particle.strokeWeight = 0;
 
             // particle go backwards
-            particle.vel.y 
+            particle.vel.y = -5;
         }
     }
     drawBackground();
