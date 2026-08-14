@@ -242,10 +242,12 @@ function draw() {
             particle.strokeWeight = 0;
 
             // particle go backwards
-            particle.vel.y = -5;
+            particle.vel.x = -5;
 
             // random movement
-            particle.vel.y = random()
+            particle.vel.y = random();
+
+            
         }
     }
     drawBackground();
