@@ -244,7 +244,8 @@ function draw() {
             // particle go backwards
             particle.vel.y = -5;
 
-            //
+            // random movement
+            particle
         }
     }
     drawBackground();
