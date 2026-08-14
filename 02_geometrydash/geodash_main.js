@@ -241,7 +241,8 @@ function draw() {
             particle.color = "white";
             particle.strokeWeight = 0;
 
-            // particle
+            // particle go backwards
+            particle.vel.y 
         }
     }
     drawBackground();
