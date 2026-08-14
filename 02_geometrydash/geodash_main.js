@@ -172,7 +172,7 @@ function draw() {
             }
     }
     if (startGame){
-
+        backgroundTrack.elt.psused
     // camera
         if (player.x >= width / 2) {
             camera.x = player.x;
@@ -259,7 +259,7 @@ function draw() {
             // upright cube
             box.rotation = 0;
         }
-        
+
     }
     drawBackground();
 }
