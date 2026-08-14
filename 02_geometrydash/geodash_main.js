@@ -20,6 +20,7 @@ let finishLine; // Finish line sprite group
 let startGame = false;
 let gameOver = false;
 let endTimer = 0;
+let particles
 
 // image sprites
 let spike;
