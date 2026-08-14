@@ -233,7 +233,8 @@ function draw() {
         }
     
         if(frameCount % 3 === 0 && player.collider(ground) && player.vel.y >= 0.5){
-            
+
+            // small part
         }
     }
     drawBackground();
