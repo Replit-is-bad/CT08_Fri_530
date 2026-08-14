@@ -142,7 +142,8 @@ function resetGame() {
 function triggerGameover() {
     gameOver = true;
 
-    
+    passSound.play();
+
     player.vel.y = 0;
     jumpChance = 0;
     endTimer = frameCount;
