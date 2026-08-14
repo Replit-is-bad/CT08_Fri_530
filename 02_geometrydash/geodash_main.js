@@ -228,13 +228,11 @@ function draw() {
 
         if (player.collides(spikes)) {
             lost = true;
-            failSound.play();
             resetGame();
         }
 
         if (player.collides(finishLine)) {
             lost = false;
-            passSound.play();
             triggerGameover();
         }
 
