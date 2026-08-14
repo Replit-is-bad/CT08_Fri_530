@@ -250,7 +250,8 @@ function draw() {
             //life
             particle.life = 15;
 
-            // particle add to 
+            // particle add to group
+            particle.add(particle)
         }
     }
     drawBackground();
