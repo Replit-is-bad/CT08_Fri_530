@@ -36,7 +36,7 @@ let endSprite;
 let backgroundTrack;
 
 
-let lost
+let lost = false;
 function preload() {
     box = loadImage("assets/cube2.png");
     bg = loadImage("assets/geobg.png");
