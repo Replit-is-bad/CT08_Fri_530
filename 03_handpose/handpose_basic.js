@@ -9,7 +9,9 @@ let handPose;
 
 function preload() {
     // Model settings
-    let options
+    let options = {
+        
+    }
 }
 
 function setup() {}
