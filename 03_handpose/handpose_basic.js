@@ -17,7 +17,8 @@ function preload() {
         landmarkModelUrl: undefined,
     }
 
-    //load 
+    //load the model
+    handPose = ml5.handPose
 }
 
 function setup() {}
