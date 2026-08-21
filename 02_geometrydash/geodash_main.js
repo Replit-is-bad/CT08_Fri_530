@@ -58,7 +58,7 @@ function preload() {
 
 function setup() {
     new Canvas(700, 600);   // (width, height)
-    world.gravity.y = 3;
+    world.gravity.y = 30;
 
     jumpChance = MAX_JUMP;
     // Player sprite
