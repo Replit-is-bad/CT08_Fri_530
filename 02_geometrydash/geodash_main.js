@@ -163,7 +163,6 @@ function triggerGameover() {
     endSprite.collider = "none";
     endSprite.img = endGameImg;
 
-    backgroundTrack.stop();
 }
 function loadLevel() {
     ground.removeALL();
