@@ -244,6 +244,7 @@ function draw() {
         }
 
         if (gameOver) {
+            console.log("")
             if (frameCount - endTimer > 120) {
                 if(endSprite){
                     endSprite.remove();
