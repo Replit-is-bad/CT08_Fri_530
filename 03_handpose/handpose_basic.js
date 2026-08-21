@@ -14,7 +14,7 @@ function preload() {
         runTime: "tfjs",
         modelType: "full",
         detectorModelUrl: undefined,
-        landmarkModel
+        landmarkModelUrl: undefined,
     }
 }
 
