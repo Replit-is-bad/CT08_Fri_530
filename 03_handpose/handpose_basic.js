@@ -11,8 +11,8 @@ function preload() {
     // Model settings
     let options = {
         flipped: true,
-        runTime: true,
-        
+        runTime: "tfjs",
+        modelType:
     }
 }
 
