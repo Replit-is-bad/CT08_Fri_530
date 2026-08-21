@@ -10,6 +10,7 @@ let handPose;
 function preload() {
     // Model settings
     let options = {
+        flipped: true,
         
     }
 }
