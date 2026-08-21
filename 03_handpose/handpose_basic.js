@@ -16,6 +16,8 @@ function preload() {
         detectorModelUrl: undefined,
         landmarkModelUrl: undefined,
     }
+
+    //load 
 }
 
 function setup() {}
