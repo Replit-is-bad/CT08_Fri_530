@@ -11,7 +11,7 @@ function preload() {
     // Model settings
     let options = {
         flipped: true,
-        runTime: "tfjs",
+        runtime: "tfjs",
         modelType: "full",
         detectorModelUrl: undefined,
         landmarkModelUrl: undefined,
