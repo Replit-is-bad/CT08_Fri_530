@@ -4,7 +4,7 @@
 let handPose;
 
 // webcam Width & Height
-
+let videoW =640;
 
 //=========================================
 // Code
