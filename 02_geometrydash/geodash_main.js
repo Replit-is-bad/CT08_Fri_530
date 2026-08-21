@@ -246,7 +246,7 @@ function draw() {
         }
 
         if (gameOver) {
-            console.log("gameover1");
+            console.log("gameoverno");
             if (frameCount - endTimer > 120) {
                 console.log("120frames")
                 if(endSprite){
