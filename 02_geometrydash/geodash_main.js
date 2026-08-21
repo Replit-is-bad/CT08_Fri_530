@@ -249,12 +249,12 @@ function draw() {
                     endSprite.remove();
                 }
                 startGame =false;
-                console.log("hi")
+                console.log("hi");
                 gameOver = false;
                 resetGame();
 
                 level += 1;
-                console.log("working")
+                console.log("working");
                 loadLevel();
             }
         }
