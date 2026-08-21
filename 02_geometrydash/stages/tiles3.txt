@@ -9,5 +9,5 @@
                                                                     
                           b         
                        b  b         
-           s       b   b  b         
-ggggggggggggggggggggsssggggggggggggggggggggggggggssssssggggggggggggggggg
+           s       bs  b  b         
+ggggggggggggggggggggggggggggggggggggggggggggggggggssssssggggggggggggggggg
