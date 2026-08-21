@@ -12,7 +12,8 @@ function preload() {
     let options = {
         flipped: true,
         runTime: "tfjs",
-        modelType:
+        modelType: "full",
+        detectorModel
     }
 }
 
