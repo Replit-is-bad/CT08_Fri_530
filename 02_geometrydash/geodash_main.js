@@ -254,7 +254,7 @@ function draw() {
                 resetGame();
 
                 level += 1;
-                console.log(working)
+                console.log("working")
                 loadLevel();
             }
         }
