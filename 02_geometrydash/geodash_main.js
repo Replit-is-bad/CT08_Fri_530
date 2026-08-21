@@ -124,10 +124,10 @@ function setup() {
 
 
 function resetGame() {
-    backgroundTrack.stop();
-    if(lost) {
-        failSound.play();
-    }
+    // backgroundTrack.stop();
+    // if(lost) {
+    //     failSound.play();
+    // }
 
     box.rotation = 0;
 
