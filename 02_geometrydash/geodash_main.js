@@ -211,7 +211,7 @@ function draw() {
 
         if ((kb.presses("space") || mouse.presses("left")) && jumpChance > 0) {
             jumpChance -= 1;
-            player.vel.y = 1;
+            player.vel.y = -15;
             player.rotateTo(player.rotation + 359, 15);
         }
 
