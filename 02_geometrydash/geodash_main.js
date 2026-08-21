@@ -193,9 +193,9 @@ function draw() {
             }
     }
     if (startGame){
-        if (backgroundTrack.elt.paused){
-            backgroundTrack.play();
-        }
+        // if (backgroundTrack.elt.paused){
+        //     backgroundTrack.play();
+        // }
     // camera
         if (player.x >= width / 2) {
             camera.x = player.x;
