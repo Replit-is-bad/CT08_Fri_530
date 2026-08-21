@@ -7,7 +7,9 @@ let handPose;
 // Code
 //=========================================
 
-function preload() {}
+function preload() {
+    // Mode
+}
 
 function setup() {}
 
