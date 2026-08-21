@@ -143,10 +143,10 @@ function triggerGameover() {
     gameOver = true;
     console.log("gameover1");
     backgroundTrack.stop();
-    if (!gameOver){
-        console.log("gameover2");
-        passSound.play();
-    }
+    // if (!gameOver){
+    //     console.log("gameover2");
+    //     passSound.play();
+    // }
     
 
     player.vel.y = 0;
