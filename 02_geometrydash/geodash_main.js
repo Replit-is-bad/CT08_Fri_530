@@ -142,7 +142,7 @@ function resetGame() {
 function triggerGameover() {
     gameOver = true;
     console.log("gameover1");
-    backgroundTrack.stop();
+    // backgroundTrack.stop();
     // if (!gameOver){
     //     console.log("gameover2");
     //     passSound.play();
