@@ -138,15 +138,10 @@ function resetGame() {
 
     camera.x = width / 2;
 
-    
-    backgroundTrack.stop();
-    if(lost) {
-        failSound.play();
-    }
 }
 function triggerGameover() {
     gameOver = true;
-
+    backgroundTrack.stop();
     if (!gameOver){
         passSound.play();
     }
