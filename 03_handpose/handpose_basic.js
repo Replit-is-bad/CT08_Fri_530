@@ -8,7 +8,8 @@ let handPose;
 //=========================================
 
 function preload() {
-    // Mode
+    // Model settings
+    let options
 }
 
 function setup() {}
