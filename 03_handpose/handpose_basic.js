@@ -33,9 +33,9 @@ function setup() {
             mandatory: {
             minWidth:videoW,
             minHeight:videoH
+            },
+            optional: [{minFrameRate:60}]
         },
-        optional: [{minFrameRate:60}]
-        }
     }
 }
 
