@@ -65,7 +65,7 @@ function setup() {
     balloon.y  =height/2;
     balloon.bounciness = 1;
     balloon.mass = 2;
-    balo
+    balloon.drag =0.1;
 
 }   
 
