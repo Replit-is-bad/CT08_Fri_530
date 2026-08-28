@@ -51,7 +51,7 @@ function setup() {
 
 function draw() {
     // Draw webCam vid
-    Image(video,)
+    Image(video,0,0,videoW,videoH)
 }
 
 
