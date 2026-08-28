@@ -51,7 +51,7 @@ function setup() {
     //send vid to the model to detect the hands
     handPose.detectStart(video, gotHands);
 
-    fingerTip = newSprite();
+    fingerTip = new Sprite();
     fingerTip.diameter = 60;
     fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(225, 255, 0, 0.1)";
