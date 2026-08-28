@@ -55,6 +55,7 @@ function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
 
+    // Check if mod
     if (hands.length > 0) {
         console.log(hands);
     }
