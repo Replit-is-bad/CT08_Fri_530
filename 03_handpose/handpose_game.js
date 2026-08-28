@@ -58,7 +58,8 @@ function setup() {
     fingerTip.color = "rgba(225, 255, 0, 0.1)";
 
     balloon = new Sprite();
-    
+    balloon.diameter =60 ;
+    balloon.collider 
 
 }   
 
