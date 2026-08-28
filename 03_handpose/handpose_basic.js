@@ -63,7 +63,7 @@ function draw() {
             let hand = hands[i];
 
             let keypoint = hand.keypoints[4];
-            circle(200,200,10);
+            circle(keypoint.x,200,10);
         }
     }
 
