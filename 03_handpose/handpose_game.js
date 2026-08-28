@@ -51,6 +51,7 @@ function setup() {
     //send vid to the model to detect the hands
     handPose.detectStart(video, gotHands);
 
+    fingertip = newSp
 }
 
 function draw() {
