@@ -58,7 +58,8 @@ function draw() {
     // Check if model detects hand
     if (hands.length > 0) {
         console.log(hands);
-        
+
+        let keypoint =
         circle(200,200,10);
     }
 
