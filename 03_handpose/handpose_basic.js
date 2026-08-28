@@ -39,6 +39,8 @@ function setup() {
         audio: false,
         flipped: true
     };
+
+    video = create
 }
 
 function draw() {}
