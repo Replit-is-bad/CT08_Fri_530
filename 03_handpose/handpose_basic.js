@@ -29,7 +29,7 @@ function setup() {
 
     //Setup webcam vid
     let constraints = {
-        mand
+        mandatory: {}
     }
 }
 
