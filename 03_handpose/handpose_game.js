@@ -66,14 +66,13 @@ function draw() {
     if (hands.length > 0) {
         console.log(hands);
 
-        for (let i = 0; i < hands.length; i++){
             let hand = hands[i];                        
             let keypoint = hand.keypoints[8];
 
             fingertip.x = keypoint.x;
             fingertip.y = keypoint.y;
             
-        }
+        
     }
 
 }
