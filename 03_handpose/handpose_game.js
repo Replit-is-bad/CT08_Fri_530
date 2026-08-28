@@ -61,7 +61,8 @@ function setup() {
     balloon.diameter =60 ;
     balloon.collider ="dynamic";
     balloon.color = "rgb(255,0,0)";
-    balloon.x =width / 
+    balloon.x =width / 2
+    balloon.y  =height/2
 
 }   
 
