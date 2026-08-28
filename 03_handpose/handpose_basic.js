@@ -51,6 +51,7 @@ function setup() {
 
 function draw() {}
 
+
 //=========================================
 // Function Created
 //=========================================
@@ -58,4 +59,5 @@ function draw() {}
 function gotHands(results) {
     // Model detecting hand and saving output
     hands = results;
+
 }
