@@ -59,7 +59,7 @@ function draw() {
     if (hands.length > 0) {
         console.log(hands);
 
-        let keypoint =
+        let keypoint = hands;
         circle(200,200,10);
     }
 
