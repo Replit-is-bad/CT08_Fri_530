@@ -40,7 +40,8 @@ function setup() {
         flipped: true
     };
 
-    video = createCapture(constraints)
+    video = createCapture(constraints);
+    video.size(video)
 }
 
 function draw() {}
