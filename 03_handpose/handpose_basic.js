@@ -50,7 +50,8 @@ function setup() {
 }
 
 function draw() {
-    
+    // Draw webCam vid
+    Image
 }
 
 
