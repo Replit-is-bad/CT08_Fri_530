@@ -10,6 +10,7 @@ let videoH = 480;
 let hands = [];
 
 let fingerTip;
+let balloon;
 //=========================================
 // Code
 //=========================================
@@ -56,7 +57,8 @@ function setup() {
     fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(225, 255, 0, 0.1)";
 
-    balloon = new Sprite
+    balloon = new Sprite();
+    
 
 }   
 
