@@ -55,12 +55,13 @@ function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
 
-    // Check if mod
+    // Check if model detects hand
     if (hands.length > 0) {
         console.log(hands);
+        
+        circle(200,200,10);
     }
 
-    circle(200,200,10);
 }
 
 
