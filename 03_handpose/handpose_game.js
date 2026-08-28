@@ -30,7 +30,7 @@ function preload() {
 
 function setup() {
     createCanvas(videoW,videoH);
-    AudioWorkletNode. gravity
+    world.gravity.y = 5
     //Setup webcam vid
     let constraints = {
         video: {
