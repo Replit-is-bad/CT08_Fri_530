@@ -25,7 +25,7 @@ function preload() {
 }
 
 function setup() {
-    create
+    createCanvas(videoQW)
 }
 
 function draw() {}
