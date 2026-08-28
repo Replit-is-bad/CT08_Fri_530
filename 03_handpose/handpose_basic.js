@@ -30,9 +30,10 @@ function setup() {
     //Setup webcam vid
     let constraints = {
         mandatory: {
-            minWidth:videoW
+            minWidth:videoW,
             minHeight:videoH
-        }
+        },
+        
     }
 }
 
