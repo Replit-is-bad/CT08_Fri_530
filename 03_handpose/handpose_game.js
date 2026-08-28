@@ -54,7 +54,8 @@ function setup() {
     fingertip = newSprite();
     fingertip.diameter = 60;
     fingertip.collider = "kinematic";
-}
+    fingertip.color = "rgba(225, 255, 0, 0.1)";
+}   
 
 function draw() {
     // Draw webCam vid
