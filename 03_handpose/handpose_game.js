@@ -53,7 +53,7 @@ function setup() {
 
     fingertip = newSprite();
     fingertip.diameter = 60;
-    fingertip.collider = d
+    fingertip.collider = "dynamic"
 }
 
 function draw() {
