@@ -59,7 +59,7 @@ function draw() {
         console.log(hands);
     }
 
-    
+    circle()
 }
 
 
