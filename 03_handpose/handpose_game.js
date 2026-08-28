@@ -30,7 +30,7 @@ function preload() {
 
 function setup() {
     createCanvas(videoW,videoH);
-    world.gravity.y = 5
+    world.gravity.y = 5;
     //Setup webcam vid
     let constraints = {
         video: {
@@ -55,6 +55,8 @@ function setup() {
     fingerTip.diameter = 60;
     fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(225, 255, 0, 0.1)";
+
+    ballo
 
 }   
 
