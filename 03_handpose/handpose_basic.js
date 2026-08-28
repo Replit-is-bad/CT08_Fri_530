@@ -45,7 +45,7 @@ function setup() {
     video.size(videoW,videoH);
     video.hide();
 
-    handPose.detect
+    handPose.detectStart(video, got);
 }
 
 function draw() {}
