@@ -46,7 +46,7 @@ function setup() {
     video.hide();
 
     handPose.detectStart(video, gotHands);
-    
+
 }
 
 function draw() {}
@@ -54,3 +54,5 @@ function draw() {}
 //=========================================
 // Function Created
 //=========================================
+
+function gotHands(results)
