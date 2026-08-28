@@ -9,7 +9,7 @@ let videoH = 480;
 
 let hands = [];
 
-let fingertip;
+let fingerTip;
 //=========================================
 // Code
 //=========================================
@@ -51,9 +51,9 @@ function setup() {
     //send vid to the model to detect the hands
     handPose.detectStart(video, gotHands);
 
-    fingertip = newSprite();
-    fingertip.diameter = 60;
-    fingertip.collider = "kinematic";
+    fingerTip = newSprite();
+    fingerTip.diameter = 60;
+    fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(225, 255, 0, 0.1)";
 
     fingertip.x = keypoint.x;
