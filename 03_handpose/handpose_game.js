@@ -68,8 +68,8 @@ function draw() {
         let hand = hands[0];                        
         let keypoint = hand.keypoints[8];
 
-        fingertip.x = keypoint.x;
-        fingertip.y = keypoint.y;
+        fingerTip.x = keypoint.x;
+        fingerTip.y = keypoint.y;
         fingerTip.visible = true;
         
     }
