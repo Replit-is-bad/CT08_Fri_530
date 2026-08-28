@@ -29,11 +29,13 @@ function setup() {
 
     //Setup webcam vid
     let constraints = {
-        mandatory: {
+        video: {
+            mandatory: {
             minWidth:videoW,
             minHeight:videoH
         },
-        optional: [{minFrameRate:}]
+        optional: [{minFrameRate:60}]
+        }
     }
 }
 
