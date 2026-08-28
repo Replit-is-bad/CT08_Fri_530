@@ -55,6 +55,9 @@ function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
 
+    if (hands.length > 0) {
+        
+    }
     console.log(hands);
 }
 
