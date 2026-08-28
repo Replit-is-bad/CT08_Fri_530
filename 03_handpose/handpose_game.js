@@ -56,7 +56,7 @@ function setup() {
     fingerTip.collider = "kinematic";
     fingerTip.color = "rgba(225, 255, 0, 0.1)";
 
-    ballo
+    balloon = new Sprite
 
 }   
 
