@@ -70,7 +70,7 @@ function draw() {
 
         fingertip.x = keypoint.x;
         fingertip.y = keypoint.y;
-            
+        fingerTip.visable =
         
     }
 
