@@ -148,6 +148,8 @@ function gotHands(results) {
 
 function keyPressed( ) {
     if (key === "space") {
-        game
+        gameStart = true;
+
+        fingerTip.collider = 
     }
 }
