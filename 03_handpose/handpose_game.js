@@ -145,3 +145,9 @@ function gotHands(results) {
     // Model detecting hand and saving output
     hands = results;
 }
+
+function keyPressed( ) {
+    if (key === "space") {
+        
+    }
+}
