@@ -13,7 +13,7 @@ let fingerTip;
 let balloon;
 let leftWall, rightWall, topWall, botWall;
 
-let
+let gameStart = false;
 //=========================================
 // Code
 //=========================================
