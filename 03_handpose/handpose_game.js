@@ -64,7 +64,7 @@ function setup() {
     balloon.color = "rgb(255,0,0)";
     balloon.x =width / 2;
     balloon.y  =height/10;
-    balloon.bounciness = 1;
+    balloon.bounciness = 100;
     balloon.mass = 1;
     balloon.drag =0.5;
 
