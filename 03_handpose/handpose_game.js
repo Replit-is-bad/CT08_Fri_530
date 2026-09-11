@@ -76,7 +76,6 @@ function draw() {
 
     // Check if model detects hand
     if (hands.length > 0) {
-        console.log(hands);
         let hand = hands[0];                        
         let keypoint = hand.keypoints[8];
 
