@@ -151,6 +151,6 @@ function keyPressed( ) {
         gameStart = true;
 
         fingerTip.collider = "kinematic";
-        
+        balloon.collider = "dynamic"
     }
 }
