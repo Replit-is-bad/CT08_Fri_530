@@ -85,7 +85,7 @@ function setup() {
     rightWall.color = "yellow"
 
     topWall = new Sprite();
-    topWall.x = 240;
+    topWall.x = width/2;
     topWall.y = 0;
     topWall.width = width;
     topWall.height = 10;
