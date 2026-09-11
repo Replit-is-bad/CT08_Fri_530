@@ -110,7 +110,7 @@ function draw() {
     image(video,0,0,videoW,videoH);
 
     if(gameStart === false){
-        
+        Text('')
     }
 
     // Check if model detects hand
