@@ -73,8 +73,8 @@ function setup() {
     leftWall.y = height/2;
     leftWall.width = 10;
     leftWall.height = 640;
-    leftWall.collider = "static"
-    leftWall.color = "purple"
+    leftWall.collider = "static";
+    leftWall.color = "purple";
 
 }   
 
