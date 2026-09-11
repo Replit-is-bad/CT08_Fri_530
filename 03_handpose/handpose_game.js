@@ -150,6 +150,7 @@ function keyPressed( ) {
     if (key === "space") {
         gameStart = true;
 
-        fingerTip.collider = 
+        fingerTip.collider = "kinematic";
+        
     }
 }
