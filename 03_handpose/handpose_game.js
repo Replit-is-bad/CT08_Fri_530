@@ -63,7 +63,7 @@ function setup() {
 
     balloon = new Sprite();
     balloon.diameter =60 ;
-    balloon.collider ="NONE";
+    balloon.collider ="none";
     balloon.color = "rgb(255,0,0)";
     balloon.x =width / 2;
     balloon.y  =height/10;
@@ -148,6 +148,6 @@ function gotHands(results) {
 
 function keyPressed( ) {
     if (key === "space") {
-        
+        game
     }
 }
