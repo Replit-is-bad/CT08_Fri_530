@@ -12,6 +12,8 @@ let hands = [];
 let fingerTip;
 let balloon;
 let leftWall, rightWall, topWall, botWall;
+
+let
 //=========================================
 // Code
 //=========================================
