@@ -109,6 +109,10 @@ function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
 
+    if(gameStart === false){
+        
+    }
+
     // Check if model detects hand
     if (hands.length > 0) {
         let hand = hands[0];                        
