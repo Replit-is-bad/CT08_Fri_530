@@ -90,7 +90,7 @@ function setup() {
     botWall.width = 10;
     botWall.height = height;
     botWall.collider = "static";
-    leftWall.color = "yellow"
+    botWall.color = "yellow"
 
 }   
 
