@@ -82,7 +82,7 @@ function setup() {
     rightWall.width = 10;
     rightWall.height = height;
     rightWall.collider = "static";
-    rightWall.color = "yellow"
+    rightWall.color = "yellow";
 
     topWall = new Sprite();
     topWall.x = width/2;
@@ -90,7 +90,7 @@ function setup() {
     topWall.width = width;
     topWall.height = 10;
     topWall.collider = "static";
-    topWall.color = "yellow"
+    topWall.color = "yellow";
 
     botWall = new Sprite();
     botWall.x = width/2;
@@ -98,7 +98,7 @@ function setup() {
     botWall.width = width;
     botWall.height = 10;
     botWall.collider = "static";
-    botWall.color = "yellow"
+    botWall.color = "yellow";
 
 }   
 
