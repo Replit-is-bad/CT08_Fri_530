@@ -153,6 +153,7 @@ function keyPressed( ) {
         fingerTip.collider = "kinematic";
         balloon.collider = "dynamic"
         balloon.bounciness = 1;
-        ReadableByteStreamController
+        balloon.mass = 5;
+        balloon.drag = 0.1;
     }
 }
