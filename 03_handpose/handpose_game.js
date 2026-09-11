@@ -72,7 +72,7 @@ function setup() {
     leftWall.x = width;
     leftWall.y = 0;
     leftWall.width = 2;
-    
+    leftWall.height 
 
 }   
 
