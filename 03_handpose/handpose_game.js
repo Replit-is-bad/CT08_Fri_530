@@ -88,8 +88,8 @@ function setup() {
     botWall.x = 0;
     botWall.y = height/2;
     botWall.width = 10;
-    leftWall.height = height;
-    leftWall.collider = "static";
+    botWall.height = height;
+    botWall.collider = "static";
     leftWall.color = "yellow"
 
 }   
