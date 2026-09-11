@@ -14,6 +14,7 @@ let balloon;
 let leftWall, rightWall, topWall, botWall;
 
 let gameStart = false;
+let gameOver = false;
 //=========================================
 // Code
 //=========================================
