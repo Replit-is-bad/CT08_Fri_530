@@ -70,10 +70,11 @@ function setup() {
 
     leftWall = new Sprite();
     leftWall.x = 0;
-    leftWall.y = videoH;
+    leftWall.y = height/2;
     leftWall.width = 10;
     leftWall.height = 640;
     leftWall.collider = "static"
+    left
 
 }   
 
