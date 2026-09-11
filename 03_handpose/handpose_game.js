@@ -65,8 +65,8 @@ function setup() {
     balloon.x =width / 2;
     balloon.y  =height/10;
     balloon.bounciness = 100;
-    balloon.mass = 1;
-    balloon.drag =100.5;
+    balloon.mass = 100;
+    balloon.drag =0.5;
 
     leftWall = new Sprite();
     leftWall.x = 0;
