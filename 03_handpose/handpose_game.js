@@ -108,7 +108,7 @@ function draw() {
         fingerTip.visible = true;
         
     }   else {
-        fingerTip
+        fingerTip.visible = false;
     }
 
 }
