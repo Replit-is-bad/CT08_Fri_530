@@ -93,7 +93,7 @@ function setup() {
     topWall.color = "yellow"
 
     botWall = new Sprite();
-    botWall.x = 240;
+    botWall.x = width/2;
     botWall.y = height;
     botWall.width = width;
     botWall.height = 10;
