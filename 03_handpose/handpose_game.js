@@ -111,7 +111,7 @@ function draw() {
 
     if(gameStart === false){
         textSize(40);
-        fill("r")
+        fill("rgb(203,239,2)")
         text('START', width/2, height/2);
     }
 
