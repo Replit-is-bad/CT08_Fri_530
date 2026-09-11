@@ -152,5 +152,6 @@ function keyPressed( ) {
 
         fingerTip.collider = "kinematic";
         balloon.collider = "dynamic"
+        balloon.bo
     }
 }
