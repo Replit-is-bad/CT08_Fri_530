@@ -87,8 +87,8 @@ function setup() {
     botWall = new Sprite();
     botWall.x = 0;
     botWall.y = height/2;
-    botWall.width = 10;
-    botWall.height = height;
+    botWall.width = width;
+    botWall.height = 10;
     botWall.collider = "static";
     botWall.color = "yellow"
 
