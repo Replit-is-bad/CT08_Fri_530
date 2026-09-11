@@ -84,6 +84,14 @@ function setup() {
     rightWall.collider = "static";
     rightWall.color = "yellow"
 
+    leftWall = new Sprite();
+    leftWall.x = 0;
+    leftWall.y = height/2;
+    leftWall.width = 10;
+    leftWall.height = height;
+    leftWall.collider = "static";
+    leftWall.color = "yellow"
+
 }   
 
 function draw() {
