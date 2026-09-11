@@ -80,7 +80,7 @@ function setup() {
     rightWall.x = 0;
     rightWall.y = height/2;
     rightWall.width = 10;
-    leftWall.height = height;
+    rightWall.height = height;
     leftWall.collider = "static";
     leftWall.color = "yellow"
 
