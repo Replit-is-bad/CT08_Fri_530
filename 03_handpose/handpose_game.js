@@ -110,6 +110,7 @@ function draw() {
     image(video,0,0,videoW,videoH);
 
     if(gameStart === false){
+        textSize(40);
         text('START', width/2, height/2);
     }
 
