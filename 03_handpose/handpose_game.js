@@ -112,11 +112,12 @@ function draw() {
     if(gameStart === false){
         textSize(40);
         textAlign(CENTER , CENTER);
-        fill("rgb(8, 8, 255)")
+        fill("rgb(8, 8, 255)");
         text('START', width/2, height/2);
 
         textSize(26);
-        fill("rgb(2, 2, 145)")
+        fill("rgb(2, 2, 145)");
+         text('START', width/2, height/2);
     }
 
     // Check if model detects hand
