@@ -152,7 +152,7 @@ function draw() {
             text('PRESS SPACE TO RESTART', width/2, height*0.6);
             keyPressed();
             fingerTip.visible = false;
-            
+            balloon.visible = false;
         }
     }
     
