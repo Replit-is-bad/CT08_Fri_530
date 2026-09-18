@@ -110,7 +110,7 @@ function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
     textSize(10);
-    textAlign(CENTER, )
+    textAlign(CENTER, TOP);
 
     if(gameStart === false){
         balloon.visible = true;
