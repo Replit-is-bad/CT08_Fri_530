@@ -137,7 +137,7 @@ function draw() {
         }
 
         // chaeck collision
-        if (fingerTip.collides)
+        if (fingerTip.collides())
 
         if (balloon.collides(botWall)) {
             //gameover
