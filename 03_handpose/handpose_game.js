@@ -116,7 +116,7 @@ function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
     textSize(10);
-    textAlign(CENTER, RIGHT);
+    textAlign(CENTER, CENTER);
     fill("rgb(67, 97, 2)");
     text('SCORE:'+ score , 30, 20);
 
