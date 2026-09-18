@@ -113,7 +113,7 @@ function draw() {
     image(video,0,0,videoW,videoH);
     textSize(10);
     textAlign(CENTER, RIGHT);
-    fill("rgb(174, 255, 0)");
+    fill("rgb(67, 97, 2)");
     text('SCORE:'+ score , 30, 20);
 
     if(gameStart === false){
