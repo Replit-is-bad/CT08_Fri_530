@@ -147,6 +147,7 @@ function draw() {
         // chaeck collision
         if (fingerTip.collides(balloon) && cooldown <= 0) {
             score++;
+            cooldown = 500;
         }
 
         if (cooldown > 0) {
