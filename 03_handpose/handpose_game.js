@@ -120,7 +120,7 @@ function draw() {
         fill("rgb(2, 2, 145)");
         text('PRESS SPACE TO START', width/2, height*0.6);
         keyPressed();
-        
+
     } else if(gameStart === true){
         // Check if model detects hand
         if (hands.length > 0) {
@@ -134,6 +134,8 @@ function draw() {
         }   else {
             fingerTip.visible = false;
         }
+
+        // chaeck colli
     }
     
 
