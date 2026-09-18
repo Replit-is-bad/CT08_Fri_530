@@ -148,7 +148,7 @@ function draw() {
             text('GAME OVER', width/2, height/2);
 
             textSize(26);
-            fill("rgb(2, 2, 145)");
+            fill("rgb(145, 2, 2)");
             text('U LET THE BALL TOUCH THE GROUND', width/2, height*0.6);
         }
     }
