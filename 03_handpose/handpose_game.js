@@ -112,7 +112,7 @@ function draw() {
     textSize(10);
     textAlign(CENTER,TOP);
     fill("rgb(174, 255, 0)");
-    text()
+    text('SCORE:')
 
     if(gameStart === false){
         balloon.visible = true;
