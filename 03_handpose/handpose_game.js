@@ -116,8 +116,6 @@ function draw() {
         fill("rgb(8, 8, 255)");
         text('START', width/2, height/2);
 
-        fingerTip.visible = false;
-
         textSize(26);
         fill("rgb(2, 2, 145)");
         text('PRESS SPACE TO START', width/2, height*0.6);
@@ -159,5 +157,7 @@ function keyPressed( ) {
         balloon.bounciness = 1;
         balloon.mass = 5;
         balloon.drag = 0.1;
+
+        fingerTip.collider = "kinematic";
     }
 }
