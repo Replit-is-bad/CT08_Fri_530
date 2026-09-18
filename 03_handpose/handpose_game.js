@@ -135,7 +135,10 @@ function draw() {
             fingerTip.visible = false;
         }
 
-        // chaeck colli
+        // chaeck collision
+        if (ballon.collides(botwall)) {
+            
+        }
     }
     
 
