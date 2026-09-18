@@ -120,9 +120,7 @@ function draw() {
         fill("rgb(2, 2, 145)");
         text('PRESS SPACE TO START', width/2, height*0.6);
     } else if(gameStart === true){
-    }
-
-    // Check if model detects hand
+        // Check if model detects hand
     if (hands.length > 0) {
         let hand = hands[0];                        
         let keypoint = hand.keypoints[8];
@@ -133,6 +131,7 @@ function draw() {
         
     }   else {
         fingerTip.visible = false;
+    }
     }
     
 
