@@ -150,6 +150,7 @@ function draw() {
         // chaeck collision
         if (fingerTip.collides(balloon) && cooldown <= 0) {
             score++;
+            bounceSound.play();
             cooldown = 500;
         }
 
