@@ -35,7 +35,7 @@ function preload() {
     //load the model
     handPose = ml5.handPose(options);
 
-    bounceSound =createAudio("assets/LowBoing.mps");
+    bounceSound =createAudio("assets/LowBoing.mp3");
     gameOverSound = createAudio("assets/DunDunn.mp3");
 }
 
