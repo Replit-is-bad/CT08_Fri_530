@@ -16,7 +16,7 @@ let leftWall, rightWall, topWall, botWall;
 let gameStart = false;
 let gameOver = false;
 
-let score;
+let score = 0;
 //=========================================
 // Code
 //=========================================
