@@ -150,12 +150,6 @@ function draw() {
             textSize(26);
             fill("rgb(145, 2, 2)");
             text('PRESS SPACE TO RESTART', width/2, height*0.6);
-            
-        } else if(keyPressed()) {
-            balloon.x =width / 2;
-            balloon.y  =height/10;
-            balloon.visible = true;
-            
         }
     }
     
