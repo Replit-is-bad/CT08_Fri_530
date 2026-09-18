@@ -115,6 +115,8 @@ function draw() {
         fill("rgb(8, 8, 255)");
         text('START', width/2, height/2);
 
+        fingerTip.visible = false;
+
         textSize(26);
         fill("rgb(2, 2, 145)");
         text('PRESS SPACE TO START', width/2, height*0.6);
