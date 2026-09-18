@@ -149,6 +149,8 @@ function draw() {
             score++;
         }
 
+        if 
+
         if (balloon.collides(botWall)) {
             //gameover
             gameOver = true
