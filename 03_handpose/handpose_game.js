@@ -17,7 +17,7 @@ let gameStart = false;
 let gameOver = false;
 
 let score = 0;
-let cooldown =
+let cooldown = 500;
 //=========================================
 // Code
 //=========================================
