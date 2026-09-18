@@ -109,6 +109,7 @@ function setup() {
 function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
+    textSize()
 
     if(gameStart === false){
         balloon.visible = true;
@@ -138,7 +139,7 @@ function draw() {
 
         // chaeck collision
         if (fingerTip.collides(balloon)) {
-            
+
         }
 
         if (balloon.collides(botWall)) {
