@@ -170,7 +170,10 @@ function keyPressed( ) {
     if (kb.pressed("space")) {
         gameStart = true;
 
-        
+         balloon.collider ="none";
+        balloon.color = "rgb(255,0,0)";
+        balloon.x =width / 2;
+        balloon.y  =height/10;
 
         fingerTip.collider = "kinematic";
         balloon.collider = "dynamic"
