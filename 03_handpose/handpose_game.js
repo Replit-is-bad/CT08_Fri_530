@@ -165,7 +165,7 @@ function draw() {
         }
 
         if (gameOver === true) {
-            DunDunn.
+            gameOverSound.play()
             textSize(40);
             textAlign(CENTER , CENTER);
             fill("rgb(255, 8, 8)");
