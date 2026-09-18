@@ -178,7 +178,8 @@ function keyPressed( ) {
         balloon.visible = true;
 
         fingerTip.collider = "kinematic";
-        fingerTip
+        fingerTip.visible = true;
+        
         balloon.collider = "dynamic"
         balloon.bounciness = 1;
         balloon.mass = 5;
