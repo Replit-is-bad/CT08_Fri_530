@@ -111,6 +111,7 @@ function draw() {
     image(video,0,0,videoW,videoH);
     textSize(10);
     textAlign(CENTER,TOP);
+    fill("rgb")
 
     if(gameStart === false){
         balloon.visible = true;
