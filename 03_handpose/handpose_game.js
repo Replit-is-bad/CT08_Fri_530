@@ -165,11 +165,11 @@ function draw() {
         }
 
         if (gameOver === true) {
-            gameOverSound.play();
             textSize(40);
             textAlign(CENTER , CENTER);
             fill("rgb(255, 8, 8)");
             text('GAME OVER', width/2, height/2);
+            gameOverSound.play();
 
             textSize(26);
             fill("rgb(145, 2, 2)");
