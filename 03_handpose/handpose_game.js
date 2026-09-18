@@ -35,7 +35,7 @@ function preload() {
     //load the model
     handPose = ml5.handPose(options);
 
-    bounceSound
+    bounceSound =createAudio("")
 }
 
 function setup() {
