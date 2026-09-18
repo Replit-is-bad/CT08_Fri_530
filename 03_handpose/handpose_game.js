@@ -149,7 +149,9 @@ function draw() {
             score++;
         }
 
-        if (cooldown > 0)
+        if (cooldown > 0) {
+            
+        }
 
         if (balloon.collides(botWall)) {
             //gameover
