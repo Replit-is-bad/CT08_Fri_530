@@ -186,5 +186,6 @@ function keyPressed( ) {
         balloon.drag = 0.1;
 
         balloon.visible = true;
+        balloon.vel.x =
     }
 }
