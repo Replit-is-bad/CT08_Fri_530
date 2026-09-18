@@ -148,7 +148,7 @@ function gotHands(results) {
 }
 
 function keyPressed( ) {
-    if (kb.pressed()) {
+    if (kb.pressed("space")) {
         gameStart = true;
 
         fingerTip.collider = "kinematic";
