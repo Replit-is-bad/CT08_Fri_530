@@ -171,6 +171,7 @@ function gotHands(results) {
 
 function keyPressed( ) {
     if (kb.pressed("space")) {
+        gameOver = false;
         gameStart = true;
 
         balloon.x = width / 2;
