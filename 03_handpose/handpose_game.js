@@ -149,7 +149,7 @@ function draw() {
 
             textSize(26);
             fill("rgb(145, 2, 2)");
-            text('U LET THE BALL TOUCH THE GROUND', width/2, height*0.6);
+            text('PRESS SPACE TO RESTART', width/2, height*0.6);
         }
     }
     
