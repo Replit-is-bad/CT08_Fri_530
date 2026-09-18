@@ -162,7 +162,6 @@ function draw() {
             fill("rgb(145, 2, 2)");
             text('PRESS SPACE TO RESTART', width/2, height*0.6);
             balloon.visible = false;
-            score = 0;
             keyPressed();
         }
     }
