@@ -145,7 +145,7 @@ function draw() {
             textSize(40);
             textAlign(CENTER , CENTER);
             fill("rgb(8, 8, 255)");
-            text('START', width/2, height/2);
+            text('GAME OVER', width/2, height/2);
 
             textSize(26);
             fill("rgb(2, 2, 145)");
