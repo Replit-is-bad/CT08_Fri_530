@@ -1,70 +1,64 @@
-<!doctype html>
-<html>
-  <title>Joel's Website</title>
-  <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-  <body>
-    <header>
-      <h1 >Joel Josh</h1>
-      <p>Student</p>
-    </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- About me -->
-    <section>
-      <h2>About Me</h2>
+    <title>Pose Match Battle</title>
 
-      <p style="color:#c99ac1 ;">
-        Hello! My name is Joel. I enjoy coding(NOT HTML), gaming, and building fun
-        projects.
-      </p>
-    </section>
+    <!-- p5.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.4/lib/addons/p5.sound.min.js"></script>
 
-    <!-- My Hobbies -->
-    <section>
-      <ol style="color:#c99ac1 ;">
-        <li>Coding</li>
-        <li>Gaming</li>
-        <li>Sleeping</li>
-      </ol>
-    </section>
+    <!-- ml5.js -->
+    <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
 
-    <!-- My Favourite Video Games -->
-    <section>
-      <h2>Favourite Games</h2>
+    <!-- p5play -->
+    <script src="https://p5play.org/v3/planck.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
 
-      <div class="games">
-        <a href="https://playvalorant.com/en-us/" target="_blank">Valorant</a>
-        <a href="https://www.roblox.com/games/17625359962/RIVALS" target="_blank">Roblox Rivals</a>
-        <a href="https://www.lunarclient.com/" target="_blank">Minecraft</a>
-      </div>
-    </section>
+    <!-- Our game code -->
+    <script src="poseMatchingL1.js"></script>
 
-    <!-- My projects (add each time when a project is completed) -->
-    <section>
-      <h2>My Projects</h2>
+    <style>
+        @font-face {
+            font-family: 'SaH';
+            src: url('assets/SaH1Outline.ttf') format('truetype'); 
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
 
-      <div class="projects">
-        <a href="02_geometrydash/index.html" class="card">
-          <h3>Geometry Dash</h3>
-          <p></p>
-        </a>
-      </div>
-      <div class="projects">
-        <a href="03_handpose/index.html" class="card">
-          <h3>Hand poseee</h3>
-          <p></p>
-        </a>
-      </div>
-    </section>
+        canvas {
+            display: block;
+            margin: 0 auto;
+            max-width: 100vw;
+            height: auto;
+        }
 
-    <footer>
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 30px;
+            font-weight: normal;
+        }
 
-      <!-- uncomment below for lesson 2. can be commented after to hide -->
-      <a href="basic.html" target ="_blank">Basic</a>
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
 
-    </footer>
-  </body>
+<body>
+    <h1 style="font-family: 'SaH', sans-serif;">Pose Battle</h1>
+</body>
 </html>
