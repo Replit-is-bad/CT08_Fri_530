@@ -15,6 +15,8 @@ let leftWall, rightWall, topWall, botWall;
 
 let gameStart = false;
 let gameOver = false;
+
+let score;
 //=========================================
 // Code
 //=========================================
@@ -112,7 +114,7 @@ function draw() {
     textSize(10);
     textAlign(CENTER,TOP);
     fill("rgb(174, 255, 0)");
-    text('SCORE:')
+    text('SCORE:'+score,)
 
     if(gameStart === false){
         balloon.visible = true;
