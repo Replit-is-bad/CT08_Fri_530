@@ -170,7 +170,6 @@ function keyPressed( ) {
     if (kb.pressed("space")) {
         gameStart = true;
 
-        balloon.collider ="none";
         balloon.x =width / 2;
         balloon.y  =height/10;
 
