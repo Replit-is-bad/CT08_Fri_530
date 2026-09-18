@@ -108,7 +108,6 @@ function setup() {
 function draw() {
     // Draw webCam vid
     image(video,0,0,videoW,videoH);
-    keyPressed();
 
     if(gameStart === false){
         textSize(40);
