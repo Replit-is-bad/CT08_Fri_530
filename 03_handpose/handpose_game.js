@@ -175,16 +175,15 @@ function keyPressed( ) {
 
         balloon.x =width / 2;
         balloon.y  =height/10;
-        balloon.visible = true;
 
         fingerTip.collider = "kinematic";
         fingerTip.visible = true;
-        
+
         balloon.collider = "dynamic"
         balloon.bounciness = 1;
         balloon.mass = 5;
         balloon.drag = 0.1;
 
-        fingerTip.collider = "kinematic";
+        balloon.visible = true;
     }
 }
