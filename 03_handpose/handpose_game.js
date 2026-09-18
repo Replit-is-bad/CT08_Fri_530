@@ -181,6 +181,7 @@ function gotHands(results) {
 
 function keyPressed( ) {
     if (kb.pressed("space")) {
+        score = 0;
         gameOver = false;
         gameStart = true;
 
