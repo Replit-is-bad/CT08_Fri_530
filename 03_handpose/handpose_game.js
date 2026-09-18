@@ -154,6 +154,8 @@ function draw() {
         } else if(keyPressed()) {
             balloon.x =width / 2;
             balloon.y  =height/10;
+            balloon.visible = true;
+            
         }
     }
     
