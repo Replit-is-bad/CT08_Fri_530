@@ -144,7 +144,7 @@ function draw() {
         if (gameOver === true) {
             textSize(40);
             textAlign(CENTER , CENTER);
-            fill("rgb(8, 8, 255)");
+            fill("rgb(255, 8, 8)");
             text('GAME OVER', width/2, height/2);
 
             textSize(26);
