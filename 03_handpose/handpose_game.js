@@ -150,7 +150,7 @@ function draw() {
         }
 
         if (cooldown > 0) {
-            
+            cooldown -= del
         }
 
         if (balloon.collides(botWall)) {
