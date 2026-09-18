@@ -141,15 +141,15 @@ function draw() {
             gameOver = true
         }
 
-        if(gameOver === true) {
+        if (gameOver === true) {
             textSize(40);
-        textAlign(CENTER , CENTER);
-        fill("rgb(8, 8, 255)");
-        text('START', width/2, height/2);
+            textAlign(CENTER , CENTER);
+            fill("rgb(8, 8, 255)");
+            text('START', width/2, height/2);
 
-        textSize(26);
-        fill("rgb(2, 2, 145)");
-        text('PRESS SPACE TO START', width/2, height*0.6);
+            textSize(26);
+            fill("rgb(2, 2, 145)");
+            text('PRESS SPACE TO START', width/2, height*0.6);
         }
     }
     
