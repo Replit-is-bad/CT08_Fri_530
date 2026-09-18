@@ -153,6 +153,8 @@ function draw() {
             keyPressed();
             fingerTip.visible = false;
             balloon.visible = false;
+        } else if(keyPressed()) {
+            
         }
     }
     
